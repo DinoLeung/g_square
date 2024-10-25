@@ -1,5 +1,5 @@
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';
-import 'package:g_square/utils/connection.dart';
+import 'package:g_square/utils/device.dart';
 
 class GShockManager {
   // Singleton
@@ -8,18 +8,18 @@ class GShockManager {
   GShockManager._() {
     FlutterBluePlus.setLogLevel(LogLevel.verbose, color: true);
 
-    connection = Connection();
+    // connection = Connection();
   }
 
   void dispose() {
-    connection.dispose();
+    // connection.dispose();
   }
 
-  late Connection connection;
+  // late Connection connection;
 
-  Future<void> connect() => connection.scanAndConnect();
+  // Future<void> connect() => connection.scanAndConnect();
 
-  Future<void> disconnect() => connection.disconnect();
+  // Future<void> disconnect() => connection.disconnect();
 
   // Future<void> discoverServices() async {
   //   connection.connectedWatch.discoverServices()
