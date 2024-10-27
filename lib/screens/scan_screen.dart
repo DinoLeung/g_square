@@ -9,7 +9,7 @@ import 'package:g_square/utils/device.dart';
 const CASIO_SERVICE_UUID = "00001804-0000-1000-8000-00805f9b34fb";
 
 class ScanScreen extends StatefulWidget {
-  const ScanScreen({Key? key}) : super(key: key);
+  const ScanScreen({super.key});
 
   @override
   State<ScanScreen> createState() => _ScanScreenState();
@@ -155,9 +155,9 @@ class _ScanScreenState extends State<ScanScreen> {
 
   Widget buildConnectButton(BuildContext context) {
     if (_isScanning) {
-      return ElevatedButton(onPressed: onStopPressed, child: Text('Stop'));
+      return ElevatedButton(onPressed: onStopPressed, child: const Text('Stop'));
     } else {
-      return ElevatedButton(onPressed: onScanPressed, child: Text('Scan'));
+      return ElevatedButton(onPressed: onScanPressed, child: const Text('Scan'));
     }
   }
 
@@ -185,7 +185,7 @@ class _ScanScreenState extends State<ScanScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Connect to watch'),
+          title: const Text('Connect to watch'),
         ),
         body: Center(child: buildConnectButton(context)));
 

@@ -10,16 +10,25 @@ class Device {
 
     // DEBUGGING SERVIECES
     for (var s in _services) {
-      print("Service: ${s.uuid}");
-      s.characteristics.forEach((c) {
+      // print("Service: ${s.uuid}");
+      for (var c in s.characteristics) {
         if (c.uuid == readCharacteristicUUID) {
-          print("READ CHARACTERISTIC: $c");
+          // print("READ CHARACTERISTIC: $c");
+          readCharacteristic = c;
         }
         if (c.uuid == writeCharacteristicUUID) {
-          print("WRITE CHARACTERISTIC: $c");
+          // print("WRITE CHARACTERISTIC: $c");
+          writeCharacteristic = c;
         }
         // print("Characteristic: ${c.uuid} ${c.properties}");
-      });
+      }
+    }
+
+    bool isInitialised =
+        readCharacteristic != null && writeCharacteristic != null;
+
+    if (!isInitialised) {
+      throw Exception('Unsupported device');
     }
   }
 
@@ -30,6 +39,8 @@ class Device {
 
   final BluetoothDevice _watch;
   final List<BluetoothService> _services;
+  late final BluetoothCharacteristic readCharacteristic;
+  late final BluetoothCharacteristic writeCharacteristic;
 
   List<BluetoothService> get watchServices => _watch.servicesList;
 

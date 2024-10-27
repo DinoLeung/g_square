@@ -5,7 +5,7 @@ import 'package:g_square/utils/device.dart';
 class DeviceScreen extends StatefulWidget {
   final Device device;
 
-  const DeviceScreen({Key? key, required this.device}) : super(key: key);
+  const DeviceScreen({super.key, required this.device});
 
   @override
   State<DeviceScreen> createState() => _DeviceScreenState();
@@ -23,9 +23,26 @@ class _DeviceScreenState extends State<DeviceScreen> {
     super.dispose();
   }
 
+  void onDisconnectPressed(BuildContext context) async {
+    await widget.device.disconnect();
+    if (context.mounted) {
+      Navigator.pop(context);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return Scaffold(
+        appBar: AppBar(
+          title: const Text('Connected watch'),
+          automaticallyImplyLeading: false
+        ),
+        body: Center(
+          child: PopScope(
+              canPop: false,
+              child: ElevatedButton(
+                  onPressed: () => onDisconnectPressed(context),
+                  child: const Text('Disconnect'))),
+        ));
   }
 }
