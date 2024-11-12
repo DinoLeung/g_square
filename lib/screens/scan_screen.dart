@@ -6,8 +6,6 @@ import 'package:g_square/screens/device_screen.dart';
 import 'package:g_square/utils/connector.dart';
 import 'package:g_square/utils/device.dart';
 
-const CASIO_SERVICE_UUID = "00001804-0000-1000-8000-00805f9b34fb";
-
 class ScanScreen extends StatefulWidget {
   const ScanScreen({super.key});
 

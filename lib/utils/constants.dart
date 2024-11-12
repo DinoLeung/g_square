@@ -27,10 +27,10 @@ import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 
 final casioServiceUUID = Guid("00001804-0000-1000-8000-00805f9b34fb");
 final allFeaturesCharacteristicUUID = Guid("26eb000d-b012-49a8-b1f8-394fb2032b0f");
-final readCharacteristicUUID = Guid("26eb002c-b012-49a8-b1f8-394fb2032b0f");
-final writeCharacteristicUUID = Guid("26eb002d-b012-49a8-b1f8-394fb2032b0f");
+final requestCharacteristicUUID = Guid("26eb002c-b012-49a8-b1f8-394fb2032b0f");
+final ioCharacteristicUUID = Guid("26eb002d-b012-49a8-b1f8-394fb2032b0f");
 
-enum Characteristics {
+enum Command {
   casioWatchName(0x23),
   casioAppInformation(0x22),
   casioBleFeatures(0x10),
@@ -55,5 +55,5 @@ enum Characteristics {
 
   final int code;
 
-  const Characteristics(this.code);
+  const Command(this.code);
 }

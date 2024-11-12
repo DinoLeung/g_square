@@ -4,43 +4,26 @@ import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'package:g_square/utils/constants.dart';
 
 class Device {
-  Device(this._watch, this._services) {
+  Device(this._watch, this._requestCharacteristic, this._ioCharacteristic) {
     _connectionStateSubscription = _watch.connectionState
         .listen(_connectionStateOnData, onError: (e) => print(e));
 
-    // DEBUGGING SERVIECES
-    for (var s in _services) {
-      // print("Service: ${s.uuid}");
-      for (var c in s.characteristics) {
-        if (c.uuid == readCharacteristicUUID) {
-          // print("READ CHARACTERISTIC: $c");
-          readCharacteristic = c;
-        }
-        if (c.uuid == writeCharacteristicUUID) {
-          // print("WRITE CHARACTERISTIC: $c");
-          writeCharacteristic = c;
-        }
-        // print("Characteristic: ${c.uuid} ${c.properties}");
-      }
-    }
+    _ioCharacteristicSubscription = _ioCharacteristic.onValueReceived
+        .listen(_ioCharacteristicOndata, onError: (e) => print(e));
+    _ioCharacteristic.setNotifyValue(true);
 
-    bool isInitialised =
-        readCharacteristic != null && writeCharacteristic != null;
-
-    if (!isInitialised) {
-      throw Exception('Unsupported device');
-    }
+    print(_requestCharacteristic.properties);
   }
 
   void dispose() {
     _connectionStateSubscription.cancel();
+    _ioCharacteristicSubscription.cancel();
     _connectionStateStreamController.close();
   }
 
   final BluetoothDevice _watch;
-  final List<BluetoothService> _services;
-  late final BluetoothCharacteristic readCharacteristic;
-  late final BluetoothCharacteristic writeCharacteristic;
+  final BluetoothCharacteristic _requestCharacteristic;
+  final BluetoothCharacteristic _ioCharacteristic;
 
   List<BluetoothService> get watchServices => _watch.servicesList;
 
@@ -53,22 +36,34 @@ class Device {
   BluetoothConnectionState _connectionState =
       BluetoothConnectionState.disconnected;
   BluetoothConnectionState get connectionState => _connectionState;
-  // bool get isConnected =>
-  //     _connectionState == BluetoothConnectionState.connected;
 
   late final StreamSubscription<BluetoothConnectionState>
       _connectionStateSubscription;
   void _connectionStateOnData(BluetoothConnectionState state) {
     _connectionState = state;
     _connectionStateStreamController.add(state);
-    // if (state == BluetoothConnectionState.disconnected) {
-    //   disconnect();
-    // }
+  }
+
+  late final StreamSubscription<List<int>> _ioCharacteristicSubscription;
+  void _ioCharacteristicOndata(List<int> data) {
+    // TODO: debugging return values.
+    // app info 0x22 returns 22 2d a8 5e 24 8c 46 8c 74 83 42 02
+    if (data.first == Command.casioWatchName.code) {
+      print(String.fromCharCodes(data.where((byte) => byte != 0)));
+    } else {
+      print(
+          data.map((byte) => byte.toRadixString(16).padLeft(2, '0')).join(' '));
+    }
   }
 
   Future<void> disconnect() async {
     await _watch.disconnect();
   }
+
+  Future<bool> subscribeToIO() => _ioCharacteristic.setNotifyValue(true);
+
+  Future request(Command c) =>
+      _requestCharacteristic.write(List.of([c.code]), withoutResponse: true);
 
   // Future<void> getSettings(BluetoothDevice watch) async {
   //   watch.

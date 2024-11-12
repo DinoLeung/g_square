@@ -24,7 +24,8 @@ class Connector {
     _deviceConnectionStreamController.close();
   }
 
-  late final StreamSubscription<BluetoothAdapterState> _adapterStateSubscription;
+  late final StreamSubscription<BluetoothAdapterState>
+      _adapterStateSubscription;
   void _handleAdapterStateChange(BluetoothAdapterState state) async {
     switch (state) {
       case BluetoothAdapterState.on:
@@ -57,12 +58,12 @@ class Connector {
   // Watch connetion
   final StreamController<Device> _deviceConnectionStreamController =
       StreamController.broadcast();
-  Stream<Device> get deviceConnectionStream => _deviceConnectionStreamController.stream;
+  Stream<Device> get deviceConnectionStream =>
+      _deviceConnectionStreamController.stream;
 
   // The connection logic is in _scanResultsSubscription
-  Future<void> scanAndConnect({Duration? timeout}) =>
-      FlutterBluePlus.startScan(
-          timeout: timeout, withServices: [casioServiceUUID]);
+  Future<void> scanAndConnect({Duration? timeout}) => FlutterBluePlus.startScan(
+      timeout: timeout, withServices: [casioServiceUUID]);
 
   Future<void> stopScanning() async => FlutterBluePlus.stopScan();
 
@@ -70,9 +71,24 @@ class Connector {
     try {
       await watch.connect();
       List<BluetoothService> services = await watch.discoverServices();
-      _deviceConnectionStreamController.add(Device(watch, services));
+
+      var allServices = services.firstWhere(
+          (service) => service.uuid == allFeaturesCharacteristicUUID);
+      var requestCharacteristic = allServices.characteristics.firstWhere(
+          (characteristic) => characteristic.uuid == requestCharacteristicUUID);
+      var ioCharacteristic = allServices.characteristics.firstWhere(
+          (characteristic) => characteristic.uuid == ioCharacteristicUUID);
+
+      _deviceConnectionStreamController.add(Device(watch, requestCharacteristic, ioCharacteristic));
+    } on FlutterBluePlusException catch (e) {
+      print(e.toString());
+      await watch.disconnect();
+    } on StateError catch (e) {
+      print("Device not supported");
+      await watch.disconnect();
     } catch (e) {
       print("Error while connecting: ${e.toString()}");
+      await watch.disconnect();
     }
   }
 }
