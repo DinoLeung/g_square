@@ -24,29 +24,28 @@ import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 // didDiscoverDescriptorsForCharacteristic:
 //   chr: 26eb0024-b012-49a8-b1f8-394fb2032b0f
 //     desc: 2902
-
 final casioServiceUUID = Guid("00001804-0000-1000-8000-00805f9b34fb");
 final allFeaturesCharacteristicUUID = Guid("26eb000d-b012-49a8-b1f8-394fb2032b0f");
 final requestCharacteristicUUID = Guid("26eb002c-b012-49a8-b1f8-394fb2032b0f");
 final ioCharacteristicUUID = Guid("26eb002d-b012-49a8-b1f8-394fb2032b0f");
 
 enum Command {
-  casioWatchName(0x23),
-  casioAppInformation(0x22),
-  casioBleFeatures(0x10),
-  casioSettingForBle(0x11),
-  casioWatchCondition(0x28),
-  casioDstWatchState(0x1d),
-  casioDstSetting(0x1e),
-  casioCurrentTime(0x09),
-  casioSettingForAlm(0x15),
-  casioSettingForAlm2(0x16),
-  casioSettingForBasic(0x13),
-  casioCurrentTimeManager(0x39),
-  casioWorldCities(0x1f),
-  casioReminderTitle(0x30),
-  casioReminderTime(0x31),
-  casioTimer(0x18),
+  watchName(0x23),
+  appInformation(0x22),
+  bleFeatures(0x10),
+  settingForBle(0x11),
+  watchCondition(0x28),
+  dstWatchState(0x1d),
+  dstSetting(0x1e),
+  currentTime(0x09),
+  settingForAlm(0x15),
+  settingForAlm2(0x16),
+  settingForBasic(0x13),
+  currentTimeManager(0x39),
+  worldCities(0x1f),
+  reminderTitle(0x30),
+  reminderTime(0x31),
+  timer(0x18),
   error(0xFF),
 
   // ECB-30

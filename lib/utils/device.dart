@@ -48,7 +48,7 @@ class Device {
   void _ioCharacteristicOndata(List<int> data) {
     // TODO: debugging return values.
     // app info 0x22 returns 22 2d a8 5e 24 8c 46 8c 74 83 42 02
-    if (data.first == Command.casioWatchName.code) {
+    if (data.first == Command.watchName.code) {
       print(String.fromCharCodes(data.where((byte) => byte != 0)));
     } else {
       print(
@@ -63,7 +63,10 @@ class Device {
   Future<bool> subscribeToIO() => _ioCharacteristic.setNotifyValue(true);
 
   Future request(Command c) =>
-      _requestCharacteristic.write(List.of([c.code]), withoutResponse: true);
+      _requestCharacteristic.write([c.code], withoutResponse: true);
+
+  Future write(Command c, List<int> data) =>
+      _ioCharacteristic.write([c.code, ...data]);
 
   // Future<void> getSettings(BluetoothDevice watch) async {
   //   watch.

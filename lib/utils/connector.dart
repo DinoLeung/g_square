@@ -79,7 +79,8 @@ class Connector {
       var ioCharacteristic = allServices.characteristics.firstWhere(
           (characteristic) => characteristic.uuid == ioCharacteristicUUID);
 
-      _deviceConnectionStreamController.add(Device(watch, requestCharacteristic, ioCharacteristic));
+      _deviceConnectionStreamController
+          .add(Device(watch, requestCharacteristic, ioCharacteristic));
     } on FlutterBluePlusException catch (e) {
       print(e.toString());
       await watch.disconnect();
