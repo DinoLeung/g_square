@@ -11,8 +11,6 @@ class Device {
     _ioCharacteristicSubscription = _ioCharacteristic.onValueReceived
         .listen(_ioCharacteristicOndata, onError: (e) => print(e));
     _ioCharacteristic.setNotifyValue(true);
-
-    print(_requestCharacteristic.properties);
   }
 
   void dispose() {

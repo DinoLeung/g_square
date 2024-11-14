@@ -1,10 +1,10 @@
-class TimeEncoder {
-  static List<int> dateTimetoBytes(DateTime date) {
+class BytesConverter {
+  static List<int> dateTimeToBytes(DateTime date) {
     List<int> bytes = [];
 
     // Year represented in two bytes
     bytes.add((date.year >> 8) & 0xFF); // Higher byte
-    bytes.add(date.year & 0xFF);         // Lower byte
+    bytes.add(date.year & 0xFF); // Lower byte
 
     // Month and Day as single bytes
     bytes.add(date.month);
@@ -23,4 +23,8 @@ class TimeEncoder {
 
     return bytes;
   }
+
+  static List<int> stringToBytes(String str) => str.codeUnits;
+  static String stringFromBytes(List<int> data) =>
+      String.fromCharCodes(data.where((byte) => byte != 0));
 }
