@@ -14,8 +14,22 @@ class TimeZoneData {
     required this.dstOffset,
     required this.dstRules,
   });
+
+  List<int> get identifierBytes => [identifierA, identifierB];
+
+  List<int> get bytes =>
+      [identifierA, identifierB, offset, dstOffset, dstRules];
+
+  // city name in 18 bytes
+  List<int> get cityNameBytes {
+    var bytes = List<int>.filled(18, 0x00);
+    bytes.setRange(0, cityName.length, cityName.codeUnits);
+    return bytes;
+  }
 }
 
+// TODO: MANY time zones from the app are not on this list.
+// Go through the decompiled casio app to figure out all of them
 enum TimeZone {
   bakerIsland(TimeZoneData(
       cityName: 'BAKER ISLAND',
@@ -156,7 +170,7 @@ enum TimeZone {
       identifierB: 0x01,
       offset: 0x0E,
       dstOffset: 0x04,
-      dstRules: 0x2B)),
+      dstRules: 0x00)),
   dubai(TimeZoneData(
       cityName: 'DUBAI',
       identifierA: 0x5B,
@@ -243,8 +257,8 @@ enum TimeZone {
       dstRules: 0x00)),
   adelaide(TimeZoneData(
       cityName: 'ADELAIDE',
-      identifierA: 0x05,
-      identifierB: 0x00,
+      identifierA: 0x7F,
+      identifierB: 0x76,
       offset: 0x26,
       dstOffset: 0x04,
       dstRules: 0x04)),
@@ -296,17 +310,106 @@ enum TimeZone {
       identifierB: 0x00,
       offset: 0x38,
       dstOffset: 0x04,
-      dstRules: 0x00));
+      dstRules: 0x00)),
+  casablanca(TimeZoneData(
+      cityName: 'CASABLANCA',
+      identifierA: 0x3A,
+      identifierB: 0x00,
+      offset: 0x00,
+      dstOffset: 0x04,
+      dstRules: 0x0F)),
+  beirut(TimeZoneData(
+      cityName: 'BEIRUT',
+      identifierA: 0x22,
+      identifierB: 0x00,
+      offset: 0x08,
+      dstOffset: 0x04,
+      dstRules: 0x0C)),
+  jerusalem(TimeZoneData(
+      cityName: 'JERUSALEM',
+      identifierA: 0x86,
+      identifierB: 0x00,
+      offset: 0x08,
+      dstOffset: 0x04,
+      dstRules: 0x2A)),
+  norfolkIsland(TimeZoneData(
+      cityName: 'NORFOLK ISLAND',
+      identifierA: 0x38,
+      identifierB: 0x01,
+      offset: 0x2C,
+      dstOffset: 0x04,
+      dstRules: 0x04)),
+  easterIsland(TimeZoneData(
+      cityName: 'EASTER ISLAND',
+      identifierA: 0x5E,
+      identifierB: 0x00,
+      offset: 0xE8,
+      dstOffset: 0x04,
+      dstRules: 0x1C)),
+  havana(TimeZoneData(
+      cityName: 'HAVANA',
+      identifierA: 0x75,
+      identifierB: 0x00,
+      offset: 0xEC,
+      dstOffset: 0x04,
+      dstRules: 0x15)),
+  santiago(TimeZoneData(
+      cityName: 'SANTIAGO',
+      identifierA: 0x02,
+      identifierB: 0x01,
+      offset: 0xF0,
+      dstOffset: 0x04,
+      dstRules: 0x1B)),
+  asuncion(TimeZoneData(
+      cityName: 'ASUNCION',
+      identifierA: 0x12,
+      identifierB: 0x00,
+      offset: 0xF0,
+      dstOffset: 0x04,
+      dstRules: 0x09)),
+  pontaDelgada(TimeZoneData(
+      cityName: 'PONTA DELGADA',
+      identifierA: 0xE4,
+      identifierB: 0x00,
+      offset: 0xFC,
+      dstOffset: 0x04,
+      dstRules: 0x02));
 
   final TimeZoneData data;
 
   const TimeZone(this.data);
 
+// TODO: error handling
   static TimeZone fromCityName(String cityName) =>
       TimeZone.values.firstWhere((tz) => tz.data.cityName == cityName);
-
+// TODO: error handling
   static TimeZone fromIdentifiers(int identifierA, int identifierB) =>
       TimeZone.values.firstWhere((tz) =>
           tz.data.identifierA == identifierA &&
           tz.data.identifierB == identifierB);
+}
+
+enum DstStatus {
+  // 00000000
+  manualOff(0),
+  // 00000001
+  manualOn(1),
+  // 00000010
+  autoOff(2),
+  // 00000011
+  autoOn(3);
+
+  final int byte;
+
+  const DstStatus(this.byte);
+
+  static DstStatus fromByte(int byte) =>
+      DstStatus.values.firstWhere((v) => v.byte == byte);
+}
+
+class Clock {
+  TimeZone timeZone;
+  DstStatus dstStatus;
+
+  Clock(this.dstStatus, this.timeZone);
 }

@@ -1,3 +1,5 @@
+import 'package:g_square/models/time_zone.dart';
+
 class BytesConverter {
   static List<int> dateTimeToBytes(DateTime date) {
     List<int> bytes = [];
@@ -27,4 +29,24 @@ class BytesConverter {
   static List<int> stringToBytes(String str) => str.codeUnits;
   static String stringFromBytes(List<int> data) =>
       String.fromCharCodes(data.where((byte) => byte != 0));
+
+  static List<int> clocksPairToBytes(
+          int positionA, int positionB, Clock clockA, Clock clockB) =>
+      [
+        positionA,
+        positionB,
+        clockA.dstStatus.byte,
+        clockB.dstStatus.byte,
+        ...clockA.timeZone.data.identifierBytes,
+        ...clockB.timeZone.data.identifierBytes
+      ];
+
+  // static List<int> timeZoneToBytes(TimeZone timeZone) => [
+  //       ...timeZone.data.identifier,
+  //       timeZone.data.offset,
+  //       timeZone.data.dstOffset,
+  //       timeZone.data.dstRules
+  //     ];
+  
+  // 41 44 45 4c 41 49 44 45 00 00 00 00 00 00 00 00 00 00
 }
