@@ -27,10 +27,10 @@ class Config {
     var dst2 = DstStatus.fromByte(bytes[4]);
     print(pos1);
     print([bytes[5].toRadixString(16), bytes[6].toRadixString(16)]);
-    var timezone1 = TimeZone.fromIdentifiers(bytes[5], bytes[6]);
+    var timezone1 = TimeZone.fromIdentifier(BytesConverter.bytesToInt([bytes[5], bytes[6]]));
     print(pos2);
     print([bytes[7].toRadixString(16), bytes[8].toRadixString(16)]);
-    var timezone2 = TimeZone.fromIdentifiers(bytes[7], bytes[8]);
+    var timezone2 = TimeZone.fromIdentifier(BytesConverter.bytesToInt([bytes[7], bytes[8]]));
 
     _setClocks(pos1, timezone1, dst1);
     _setClocks(pos2, timezone2, dst2);
@@ -84,40 +84,44 @@ class Config {
   }
 
   List<List<int>> timeZonesConfigsPacket() => [
-        [Command.timeZoneConfig.code, 0, ...homeTime.timeZone.data.bytes],
-        [Command.timeZoneConfig.code, 1, ...worldTime1.timeZone.data.bytes],
-        [Command.timeZoneConfig.code, 2, ...worldTime2.timeZone.data.bytes],
-        [Command.timeZoneConfig.code, 3, ...worldTime3.timeZone.data.bytes],
-        [Command.timeZoneConfig.code, 4, ...worldTime4.timeZone.data.bytes],
-        [Command.timeZoneConfig.code, 5, ...worldTime5.timeZone.data.bytes],
+        [Command.timeZoneConfig.code, 0, ...homeTime.timeZone.bytes],
+        [Command.timeZoneConfig.code, 1, ...worldTime1.timeZone.bytes],
+        [Command.timeZoneConfig.code, 2, ...worldTime2.timeZone.bytes],
+        [Command.timeZoneConfig.code, 3, ...worldTime3.timeZone.bytes],
+        [Command.timeZoneConfig.code, 4, ...worldTime4.timeZone.bytes],
+        [Command.timeZoneConfig.code, 5, ...worldTime5.timeZone.bytes],
       ];
 
   List<List<int>> timeZonesNamesPacket() => [
-        [Command.timeZoneName.code, 0, ...homeTime.timeZone.data.cityNameBytes],
         [
           Command.timeZoneName.code,
           0,
-          ...worldTime1.timeZone.data.cityNameBytes
+          ...homeTime.timeZone.cityNameBytes
         ],
         [
           Command.timeZoneName.code,
           0,
-          ...worldTime2.timeZone.data.cityNameBytes
+          ...worldTime1.timeZone.cityNameBytes
         ],
         [
           Command.timeZoneName.code,
           0,
-          ...worldTime3.timeZone.data.cityNameBytes
+          ...worldTime2.timeZone.cityNameBytes
         ],
         [
           Command.timeZoneName.code,
           0,
-          ...worldTime4.timeZone.data.cityNameBytes
+          ...worldTime3.timeZone.cityNameBytes
         ],
         [
           Command.timeZoneName.code,
           0,
-          ...worldTime5.timeZone.data.cityNameBytes
+          ...worldTime4.timeZone.cityNameBytes
+        ],
+        [
+          Command.timeZoneName.code,
+          0,
+          ...worldTime5.timeZone.cityNameBytes
         ],
       ];
 }
