@@ -1,4 +1,6 @@
 import 'package:g_square/models/time_zone.dart';
+import 'package:g_square/resources/home_time_zones.dart';
+import 'package:g_square/resources/world_time_zones.dart';
 
 enum DstStatus {
   // 00000000
@@ -18,23 +20,48 @@ enum DstStatus {
       DstStatus.values.firstWhere((v) => v.byte == byte);
 }
 
-class Clock {
+abstract class Clock {
   TimeZone timeZone;
   DstStatus dstStatus;
 
-  Clock(this.dstStatus, this.timeZone);
+  Clock({required this.timeZone, required this.dstStatus});
 }
 
-class HomeClock {
-  HomeTimeZone timeZone;
-  DstStatus dstStatus;
+class HomeClock extends Clock {
 
-  HomeClock(this.timeZone, this.dstStatus);
+  HomeClock({required super.timeZone, required super.dstStatus});
+
+  static HomeClock fromTimeZoneId(int timeZoneId, DstStatus dstStatus) {
+    if (homeTimeZones.containsKey(timeZoneId) == false) {
+      throw ClockError('Home time zone ID $timeZoneId does not exist.');
+    }
+    return HomeClock(timeZone: homeTimeZones[timeZoneId]!, dstStatus: dstStatus);
+  }
+
+  @override
+  HomeTimeZone get timeZone => super.timeZone as HomeTimeZone;
 }
 
-class WorldClock {
-  WorldTimeZone timeZone;
-  DstStatus dstStatus;
+class WorldClock extends Clock {
 
-  WorldClock(this.timeZone, this.dstStatus);
+  WorldClock({required super.timeZone, required super.dstStatus});
+
+  static WorldClock fromTimeZoneId(int timeZoneId, DstStatus dstStatus) {
+    if (worldTimeZones.containsKey(timeZoneId) == false) {
+      throw ClockError('Home time zone ID $timeZoneId does not exist.');
+    }
+    return WorldClock(timeZone: worldTimeZones[timeZoneId]!, dstStatus: dstStatus);
+  }
+
+  @override
+  WorldTimeZone get timeZone => super.timeZone as WorldTimeZone;
+}
+
+class ClockError implements Exception {
+  final String message;
+
+  ClockError(this.message);
+
+  @override
+  String toString() => 'ClockError: $message';
 }

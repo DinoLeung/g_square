@@ -1,15 +1,14 @@
 import 'package:g_square/models/command.dart';
 import 'package:g_square/models/clock.dart';
-import 'package:g_square/models/time_zone.dart';
 import 'package:g_square/utils/bytes_converter.dart';
 
 class Config {
-  late Clock homeTime;
-  late Clock worldTime1;
-  late Clock worldTime2;
-  late Clock worldTime3;
-  late Clock worldTime4;
-  late Clock worldTime5;
+  late HomeClock homeTime;
+  late WorldClock worldTime1;
+  late WorldClock worldTime2;
+  late WorldClock worldTime3;
+  late WorldClock worldTime4;
+  late WorldClock worldTime5;
 
   void parseClocks(List<int> bytes) {
     if (bytes.first != Command.clock.code) {
@@ -22,41 +21,36 @@ class Config {
           "Time zone settings message must be 15 bytes in lengeh, e.g. 1d 00 01 03 02 7f 76 00 00 ff ff ff ff ff ff");
     }
 
-    var pos1 = bytes[1];
-    var pos2 = bytes[2];
-    var dst1 = DstStatus.fromByte(bytes[3]);
-    var dst2 = DstStatus.fromByte(bytes[4]);
-    print(pos1);
-    print([bytes[5].toRadixString(16), bytes[6].toRadixString(16)]);
-    var timezone1 = TimeZone.fromIdentifier(BytesConverter.bytesToInt([bytes[5], bytes[6]]));
-    print(pos2);
-    print([bytes[7].toRadixString(16), bytes[8].toRadixString(16)]);
-    var timezone2 = TimeZone.fromIdentifier(BytesConverter.bytesToInt([bytes[7], bytes[8]]));
+    var position1 = bytes[1];
+    var position2 = bytes[2];
+    var dstStatuc1 = DstStatus.fromByte(bytes[3]);
+    var dstStatuc2 = DstStatus.fromByte(bytes[4]);
+    var timeZoneId1 = BytesConverter.bytesToInt([bytes[5], bytes[6]]);
+    var timeZoneId2 = BytesConverter.bytesToInt([bytes[7], bytes[8]]);
 
-    _setClocks(pos1, timezone1, dst1);
-    _setClocks(pos2, timezone2, dst2);
+    _setClocks(position1, timeZoneId1, dstStatuc1);
+    _setClocks(position2, timeZoneId2, dstStatuc2);
   }
 
-  void _setClocks(int position, TimeZone timeZone, DstStatus dstStatus) {
-    var clock = Clock(dstStatus, timeZone);
+  void _setClocks(int position, int timeZoneId, DstStatus dstStatus) {
     switch (position) {
       case 0:
-        homeTime = clock;
+        homeTime = HomeClock.fromTimeZoneId(timeZoneId, dstStatus);
         break;
       case 1:
-        worldTime1 = clock;
+        worldTime1 = WorldClock.fromTimeZoneId(timeZoneId, dstStatus);
         break;
       case 2:
-        worldTime2 = clock;
+        worldTime2 = WorldClock.fromTimeZoneId(timeZoneId, dstStatus);
         break;
       case 3:
-        worldTime3 = clock;
+        worldTime3 = WorldClock.fromTimeZoneId(timeZoneId, dstStatus);
         break;
       case 4:
-        worldTime4 = clock;
+        worldTime4 = WorldClock.fromTimeZoneId(timeZoneId, dstStatus);
         break;
       case 5:
-        worldTime5 = clock;
+        worldTime5 = WorldClock.fromTimeZoneId(timeZoneId, dstStatus);
         break;
       default:
         throw ConfigError("Time zone position must be between 0-5.");
@@ -94,36 +88,12 @@ class Config {
       ];
 
   List<List<int>> timeZonesNamesPacket() => [
-        [
-          Command.timeZoneName.code,
-          0,
-          ...homeTime.timeZone.cityNameBytes
-        ],
-        [
-          Command.timeZoneName.code,
-          0,
-          ...worldTime1.timeZone.cityNameBytes
-        ],
-        [
-          Command.timeZoneName.code,
-          0,
-          ...worldTime2.timeZone.cityNameBytes
-        ],
-        [
-          Command.timeZoneName.code,
-          0,
-          ...worldTime3.timeZone.cityNameBytes
-        ],
-        [
-          Command.timeZoneName.code,
-          0,
-          ...worldTime4.timeZone.cityNameBytes
-        ],
-        [
-          Command.timeZoneName.code,
-          0,
-          ...worldTime5.timeZone.cityNameBytes
-        ],
+        [Command.timeZoneName.code, 0, ...homeTime.timeZone.cityNameBytes],
+        [Command.timeZoneName.code, 0, ...worldTime1.timeZone.cityNameBytes],
+        [Command.timeZoneName.code, 0, ...worldTime2.timeZone.cityNameBytes],
+        [Command.timeZoneName.code, 0, ...worldTime3.timeZone.cityNameBytes],
+        [Command.timeZoneName.code, 0, ...worldTime4.timeZone.cityNameBytes],
+        [Command.timeZoneName.code, 0, ...worldTime5.timeZone.cityNameBytes],
       ];
 }
 
