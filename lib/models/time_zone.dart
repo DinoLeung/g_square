@@ -1,37 +1,25 @@
 import 'package:g_square/utils/bytes_converter.dart';
 
-class TimeZone {
+abstract class TimeZone {
   final String cityName;
   final int identifier;
-  final int offset;
-  final int dstOffset;
+  final double offset;
+  final double dstDiff;
   final int dstRules;
 
   const TimeZone({
     required this.cityName,
     required this.identifier,
     required this.offset,
-    required this.dstOffset,
+    required this.dstDiff,
     required this.dstRules,
   });
 
-  static TimeZone fromIdentifier(int identifier) {
-    // TODO: find from CSVs then return TimeZone object
-    if (identifier < 30000) {
-      // World time
-    } else {
-      // Home time
-    }
+  // static TimeZone fromIdentifier(int identifier);
 
-    return TimeZone(
-        cityName: "UTC", identifier: 0, offset: 0, dstOffset: 0, dstRules: 0);
-  }
-
-  bool get isHomeTime => identifier >= 30000;
-  bool get isworldTime => identifier < 30000;
   List<int> get identifierBytes => BytesConverter.intTo2Bytes(identifier);
 
-  List<int> get bytes => [...identifierBytes, offset, dstOffset, dstRules];
+  List<int> get bytes => [...identifierBytes, offsetByte, dstOffsetByte, dstRules];
 
   // city name in 18 bytes
   List<int> get cityNameBytes {
@@ -39,47 +27,38 @@ class TimeZone {
     bytes.setRange(0, cityName.length, cityName.codeUnits);
     return bytes;
   }
+
+  // TODO: figure out how does the app represent negative offsets
+  // e.g. Washington DC is -5 hours
+  // offsets are in 15 minutes intervals
+  int get offsetByte => (offset * 4).toInt();
+  int get dstOffsetByte => ((offset + dstDiff) * 4).toInt();
 }
 
-// TODO: MANY time zones from the app are not on this list.
-// Go through the decompiled casio app to figure out all of them
-// enum TimeZone {
+class HomeTimeZone extends TimeZone {
+  final String timeZone;
 
-//   final TimeZoneData data;
-
-//   const TimeZone(this.data);
-
-// // TODO: error handling
-//   static TimeZone fromCityName(String cityName) =>
-//       TimeZone.values.firstWhere((tz) => tz.data.cityName == cityName);
-// // TODO: error handling
-//   static TimeZone fromIdentifiers(int identifierA, int identifierB) =>
-//       TimeZone.values.firstWhere((tz) =>
-//           tz.data.identifierA == identifierA &&
-//           tz.data.identifierB == identifierB);
-// }
-
-enum DstStatus {
-  // 00000000
-  manualOff(0),
-  // 00000001
-  manualOn(1),
-  // 00000010
-  autoOff(2),
-  // 00000011
-  autoOn(3);
-
-  final int byte;
-
-  const DstStatus(this.byte);
-
-  static DstStatus fromByte(int byte) =>
-      DstStatus.values.firstWhere((v) => v.byte == byte);
+  const HomeTimeZone({
+    required super.cityName,
+    required super.identifier,
+    required super.offset,
+    required super.dstDiff,
+    required super.dstRules,
+    required this.timeZone,
+  });
 }
 
-class Clock {
-  TimeZone timeZone;
-  DstStatus dstStatus;
+class WorldTimeZone extends TimeZone {
+  final String country;
+  final String city;
 
-  Clock(this.dstStatus, this.timeZone);
+  const WorldTimeZone({
+    required super.cityName,
+    required super.identifier,
+    required super.offset,
+    required super.dstDiff,
+    required super.dstRules,
+    required this.country,
+    required this.city
+  });
 }

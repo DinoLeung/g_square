@@ -1,4 +1,5 @@
 import 'package:g_square/models/command.dart';
+import 'package:g_square/models/clock.dart';
 import 'package:g_square/models/time_zone.dart';
 import 'package:g_square/utils/bytes_converter.dart';
 

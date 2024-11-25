@@ -1,316 +1,316 @@
-ID,Timezone,DST Diff,DST Rule,Country,City,Name
-0,0,0,0,,(UTC),(UTC)
-1,0,1,0,Cote d'lvoire,Abidjan,ABIDJAN
-2,4,1,0,United Arab Emirates,Abu Dhabi,ABU DHABI
-3,0,1,0,Ghana,Accra,ACCRA
-4,3,1,0,Ethiopia,Addis Ababa,ADDIS ABABA
-5,9.5,1,4,Australia,Adelaide,ADELAIDE
-6,1,1,0,Algeria,Algiers,ALGIERS
-7,5,1,0,Kazakhstan,Almaty,ALMATY
-8,9,1,0,Indonesia,Ambon,AMBON
-9,3,1,0,Jordan,Amman,AMMAN
-10,1,1,2,Netherlands,Amsterdam,AMSTERDAM
-11,12,1,0,Russia,Anadyr,ANADYR
-12,-9,1,1,United States,Anchorage,ANCHORAGE
-13,3,1,0,Turkey,Ankara,ANKARA
-14,3,1,0,Madagascar,Antananarivo,ANTANANARIVO
-15,5,1,0,Turkmenistan,Ashgabat,ASHGABAT
-16,3,1,0,Eritrea,Asmara,ASMARA
-17,5,1,0,Kazakhstan,Astana,ASTANA
-18,-4,1,9,Paraguay,Asuncion,ASUNCION
-19,2,1,2,Greece,Athens,ATHENS
-20,-5,1,1,United States,Atlanta,ATLANTA
-21,12,1,5,New Zealand,Auckland,AUCKLAND
-22,-6,1,1,United States,Austin,AUSTIN
-23,3,1,0,Iraq,Baghdad,BAGHDAD
-24,4,1,0,Azerbaijan,Baku,BAKU
-25,-5,1,1,United States,Baltimore,BALTIMORE
-26,0,1,0,Mali,Bamako,BAMAKO
-27,5.5,1,0,India,Bangalore,BANGALORE
-28,7,1,0,Thailand,Bangkok,BANGKOK
-29,1,1,0,Central African Republic,Bangui,BANGUI
-30,1,1,2,Spain,Barcelona,BARCELONA
-31,1,1,2,Italy,Bari,BARI
-32,-4,1,0,Guadeloupe,Basse-Terre,BASSE-TERRE
-33,8,1,0,China,Beijing,BEIJING
-34,2,1,12,Lebanon,Beirut,BEIRUT
-35,1,1,2,Serbia,Belgrade,BELGRADE
-36,-6,1,0,Belize,Belize City,BELIZE CITY
-37,1,1,2,Germany,Berlin,BERLIN
-38,1,1,2,Switzerland,Bern,BERN
-39,6,1,0,Kyegyzstan,Bishkek,BISHKEK
-40,0,1,0,Guinea Bissau,Bissau,BISSAU
-41,-5,1,0,Colombia,Bogota,BOGOTA
-42,1,1,2,Italy,Bologna,BOLOGNA
-43,-5,1,1,United States,Boston,BOSTON
-44,-3,1,0,Brazil,Brasilia,BRASILIA
-45,1,1,2,Slovakia,Bratislava,BRATISLAVA
-46,-4,1,0,Barbados,Bridgetown,BRIDGETOWN
-47,10,1,0,Australia,Brisbane,BRISBANE
-48,1,1,2,Belgium,Brussels,BRUSSELS
-49,2,1,2,Romania,Bucharest,BUCHAREST
-50,1,1,2,Hungary,Budapest,BUDAPEST
-51,-3,1,0,Argentina,Buenos Aires,BUENOS AIRES
-52,2,1,22,Egypt,Cairo,CAIRO
-53,-7,1,1,Canada,Calgary,CALGARY
-54,10,1,4,Australia,Canberra,CANBERRA
-55,2,1,0,South Africa,Cape Town,CAPE TOWN
-56,-4,1,0,Venezuela,Caracas,CARACAS
-57,0,1,2,Wales,Cardiff,CARDIFF
-58,0,1,15,Morocco,Casablanca,CASABLANCA
-59,1,1,2,Italy,Catanzaro,CATANZARO
-60,-3,1,0,French Guiana,Cayenne,CAYENNE
-61,-5,1,1,United States,Charlotte,CHARLOTTE
-62,-4,1,0,US Virgin Islands,Charlotte Amalie,CHARLOTTE AMALIE
-63,12.75,1,23,New Zealand,Chatham Islands,CHATHAM ISLANDS
-64,5,1,0,Russia,Chelyabinsk,CHELYABINSK
-65,5.5,1,0,India,Chennai,CHENNAI
-66,-6,1,1,United States,Chicago,CHICAGO
-67,-6,1,0,Mexico,Chihuahua,CHIHUAHUA
-68,2,1,2,Moldova,Chisinau,CHISINAU
-69,9,1,0,Russia,Chita,CHITA
-70,-5,1,1,United States,Cleveland,CLEVELAND
-71,5.5,1,0,Sri Lanka,Colombo,COLOMBO
-72,-5,1,1,United States,Columbus,COLUMBUS
-73,0,1,0,Guinea,Conakry,CONAKRY
-74,1,1,2,Denmark,Copenhagen,COPENHAGEN
-75,0,1,2,Ireland,Cork,CORK
-76,1,1,2,Italy,Crotone,CROTONE
-77,0,1,0,Senegal,Dakar,DAKAR
-78,-6,1,1,United States,Dallas,DALLAS
-79,3,1,0,Syria,Damascus,DAMASCUS
-80,3,1,0,Tanzania,Dar es Salaam,DAR ES SALAAM
-81,9.5,1,0,Australia,Darwin,DARWIN
-82,5.5,1,0,India,Delhi,DELHI
-83,8,1,0,Indonesia,Denpasar,DENPASAR
-84,-7,1,1,United States,Denver,DENVER
-85,-5,1,1,United States,Detroit,DETROIT
-86,6,1,0,Bangladesh,Dhaka,DHAKA
-87,6,1,0,UK,Diego Garcia,DIEGO GARCIA
-88,3,1,0,Djibouti,Djibouti,DJIBOUTI
-89,3,1,0,Qatar,Doha,DOHA
-90,1,1,0,Cameroon,Douala,DOUALA
-91,4,1,0,United Arab Emirates,Dubai,DUBAI
-92,0,1,2,Ireland,Dublin,DUBLIN
-93,5,1,0,Tajikistan,Dushanbe,DUSHANBE
-94,-6,1,28,Chile,Easter Island,EASTER ISLAND
-95,0,1,2,Scotland,Edinburgh,EDINBURGH
-96,-7,1,1,Canada,Edmonton,EDMONTON
-97,-7,1,1,United States,El Paso,EL PASO
-98,-2,1,0,Brazil,Fernando de Noronha,FERNANDO DE NORONHA
-99,1,1,2,Italy,Florence,FLORENCE
-100,-4,1,0,Martinique,Fort-de-France,FORT-DE-FRANCE
-101,1,1,2,Germany,Frankfurt,FRANKFURT
-102,0,1,0,Sierra Leone,Freetown,FREETOWN
-103,2,1,0,Botswana,Gaborone,GABORONE
-104,-6,1,0,Ecuador,Galapagos Islands,GALAPAGOS ISLANDS
-105,1,1,2,Switzerland,Geneva,GENEVA
-106,1,1,2,Italy,Genoa,GENOA
-107,-4,1,0,Guyana,George Town,GEORGE TOWN
-108,-2,1,0,South Georgia,Grytviken,GRYTVIKEN
-109,10,1,0,United States,Guam,GUAM
-110,8,1,0,China,Guangzhou,GUANGZHOU
-111,-6,1,0,Guatemala,Guatemala City,GUATEMALA CITY
-112,8,1,0,China,Haikou,HAIKOU
-113,-4,1,1,Canada,Halifax,HALIFAX
-114,1,1,2,Germany,Hamburg,HAMBURG
-115,7,1,0,Vietnam,Hanoi,HANOI
-116,2,1,0,Zimbabwe,Harare,HARARE
-117,-5,1,21,Cuba,Havana,HAVANA
-118,2,1,2,Finland,Helsinki,HELSINKI
-119,-10,1,0,United States,Hilo,HILO
-120,7,1,0,Vietnam,Ho Chi Minh City,HO CHI MINH CITY
-121,10,1,4,Australia,Hobart,HOBART
-122,8,1,0,Hong Kong,Hong Kong,HONG KONG
-123,-10,1,0,United States,Honolulu,HONOLULU
-124,-6,1,1,United States,Houston,HOUSTON
-125,7,1,0,Mongolia,Hovd,HOVD
-126,5.5,1,0,India,Hyderabad,HYDERABAD
-127,-5,1,1,United States,Indianapolis,INDIANAPOLIS
-128,8,1,0,Russia,Irkutsk,IRKUTSK
-129,5,1,0,Pakistan,Islamabad,ISLAMABAD
-130,3,1,0,Turkey,Istanbul,ISTANBUL
-131,4,1,0,Russia,Izhevsk,IZHEVSK
-132,7,1,0,Indonesia,Jakarta,JAKARTA
-133,3,1,0,Saudi Arabia,Jeddah,JEDDAH
-134,2,1,42,,Jerusalem,JERUSALEM
-135,2,1,0,South Africa,Johannesburg,JOHANNESBURG
-136,4.5,1,0,Afghanistan,Kabul,KABUL
-137,2,1,0,Russia,Kaliningrad,KALININGRAD
-138,3,1,0,Uganda,Kampala,KAMPALA
-139,5,1,0,Pakistan,Karachi,KARACHI
-140,5.75,1,0,Nepal,Kathmandu,KATHMANDU
-141,10,1,0,Russia,Khabarovsk,KHABAROVSK
-142,2,1,2,Ukraine,Kharkiv,KHARKIV
-143,2,1,0,Sudan,Khartoum,KHARTOUM
-144,-5,1,1,Canada,Kingston,KINGSTON
-145,-5,1,0,Jamaica,Kingston,KINGSTON
-146,1,1,0,D.R. Congo,Kinshasa,KINSHASA
-147,14,1,0,Kiribati,Kiritimati,KIRITIMATI
-148,5.5,1,0,India,Kolkata,KOLKATA
-149,7,1,0,Russia,Krasnoyarsk,KRASNOYARSK
-150,8,1,0,Malaysia,Kuala Lumpur,KUALA LUMPUR
-151,3,1,0,Kuwait,Kuwait City,KUWAIT CITY
-152,2,1,2,Ukraine,Kyiv,KYIV
-153,-4,1,0,Bolivia,La Paz,LA PAZ
-154,1,1,0,Nigeria,Lagos,LAGOS
-155,0,1,14,Canary Islands - Spain,Las Palmas,LAS PALMAS
-156,-8,1,1,United States,Las Vegas,LAS VEGAS
-157,-5,1,0,Peru,Lima,LIMA
-158,0,1,2,Portugal,Lisbon,LISBON
-159,1,1,2,Slivenia,Ljubljana,LJUBLJANA
-160,0,1,2,UK,London,LONDON
-161,-8,1,1,United States,Los Angeles,LOS ANGELES
-162,-5,1,1,United States,Louisville,LOUISVILLE
-163,1,1,0,Angola,Luanda,LUANDA
-164,2,1,0,D.R. Congo,Lubumbashi,LUBUMBASHI
-165,2,1,0,Zambia,Lusaka,LUSAKA
-166,1,1,2,Luxembourg,Luxembourg,LUXEMBOURG
-167,2,1,2,Ukraine,Lviv,LVIV
-168,8,1,0,China,Macau,MACAU
-169,1,1,2,Spain,Madrid,MADRID
-170,11,1,0,Russia,Magadan,MAGADAN
-171,1,1,0,Equaorial Guinea,Malabo,MALABO
-172,5,1,0,Maldives,Male,MALE
-173,3,1,0,France,Mamoudzou,MAMOUDZOU
-174,-6,1,0,Nicaragua,Managua,MANAGUA
-175,3,1,0,Bahrain,Manama,MANAMA
-176,8,1,0,Philippines,Manila,MANILA
-177,2,1,0,Mozambique,Maputo,MAPUTO
-178,-4,1,0,Saint Martin,Marigot,MARIGOT
-179,-7,1,0,Mexico,Mazatlan,MAZATLAN
-180,3,1,0,Saudi Arabia,Mecca,MECCA
-181,10,1,4,Australia,Melbourne,MELBOURNE
-182,-6,1,1,United States,Memphis,MEMPHIS
-183,1,1,2,Italy,Messina,MESSINA
-184,-6,1,0,Mexico,Mexico City,MEXICO CITY
-185,-5,1,1,United States,Miami,MIAMI
-186,-11,1,0,United States,Midway,MIDWAY
-187,1,1,2,Italy,Milan,MILAN
-188,-6,1,1,United States,Milwaukee,MILWAUKEE
-189,3,1,0,Belarus,Minsk,MINSK
-190,3,1,0,Somalia,Mogadishu,MOGADISHU
-191,0,1,0,Liberia,Monrovia,MONROVIA
-192,-3,1,0,Uruguay,Montevideo,MONTEVIDEO
-193,-5,1,1,Canada,Montreal,MONTREAL
-194,3,1,0,Russia,Moscow,MOSCOW
-195,5.5,1,0,India,Mumbai,MUMBAI
-196,1,1,2,Germany,Munich,MUNICH
-197,4,1,0,Oman,Muscat,MUSCAT
-198,1,1,0,Chad,N'Djamena,N'DJAMENA
-199,3,1,0,Kenya,Nairobi,NAIROBI
-200,1,1,2,Italy,Naples,NAPLES
-201,1,1,2,Switzerland,Naters,NATERS
-202,-5,1,1,United States,New York,NEW YORK
-203,1,1,0,Niger,Niamey,NIAMEY
-204,0,1,0,Mauritania,Nouakchott,NOUAKCHOTT
-205,11,1,0,New Caledonia,Noumea,NOUMEA
-206,7,1,0,Russia,Novokuznetsk,NOVOKUZNETSK
-207,7,1,0,Russia,Novosibirsk,NOVOSIBIRSK
-208,13,1,0,Tonga,Nuku'alofa,NUKU'ALOFA
-209,-2,1,31,Greenland,Nuuk,NUUK
-210,6,1,0,Russia,Omsk,OMSK
-211,9,1,0,Japan,Osaka,OSAKA
-212,1,1,2,Norway,Oslo,OSLO
-213,-5,1,1,Canada,Ottawa,OTTAWA
-214,0,1,0,Burkina Faso,Ouagadougou,OUAGADOUGOU
-215,-11,1,0,American Samoa,Pago Pago,PAGO PAGO
-216,1,1,2,Italy,Palermo,PALERMO
-217,-5,1,0,Panama,Panama City,PANAMA CITY
-218,-10,1,0,Tahiti - French Polynesia,Papeete,PAPEETE
-219,-3,1,0,Suriname,Paramaribo,PARAMARIBO
-220,1,1,2,France,Paris,PARIS
-221,5,1,0,Russia,Perm,PERM
-222,8,1,0,Australia,Perth,PERTH
-223,12,1,0,Russia,Petropavlovsk-Kamchatsky,KAMCHATKA
-224,-5,1,1,United States,Philadelphia,PHILADELPHIA
-225,7,1,0,Cambodia,Phnom Penh,PHNOM PENH
-226,-7,1,0,United States,Phoenix,PHOENIX
-227,1,1,2,Montenegro,Podgorica,PODGORICA
-228,-1,1,2,Portugal,Ponta Delgada,PONTA DELGADA
-229,4,1,0,Mauritius,Port Louis,PORT LOUIS
-230,-5,1,1,Haiti,Port-au-Prince,PORT-AU-PRINCE
-231,-8,1,1,United States,Portland,PORTLAND
-232,1,1,2,Czech,Prague,PRAGUE
-233,-1,1,0,Cabo Verde,Praia,PRAIA
-234,9,1,0,North Korea,Pyongyang,PYONGYANG
-235,-5,1,0,Ecuador,Quito,QUITO
-236,0,1,15,Morocco,Rabat,RABAT
-237,-3,1,0,Brazil,Recife,RECIFE
-238,-6,1,0,Canada,Regina,REGINA
-239,0,1,0,Iceland,Reykjavik,REYKJAVIK
-240,2,1,2,Latvia,Riga,RIGA
-241,-3,1,0,Brazil,Rio de Janeiro,RIO DE JANEIRO
-242,3,1,0,Saudi Arabia,Riyadh,RIYADH
-243,1,1,2,Italy,Rome,ROME
-244,-4,1,1,Canada,Saint John,SAINT JOHN
-245,-4,1,0,Antigua and Barbuda,Saint John's,SAINT JOHN'S
-246,4,1,0,Reunion,Saint-Denis,SAINT-DENIS
-247,3,1,0,Russia,Saint-Petersburg,SAINT-PETERSBURG
-248,4,1,0,Russia,Samara,SAMARA
-249,-6,1,1,United States,San Antonio,SAN ANTONIO
-250,-8,1,1,United States,San Diego,SAN DIEGO
-251,-8,1,1,United States,San Francisco,SAN FRANCISCO
-252,-6,1,0,Costa Rica,San Jose,SAN JOSE
-253,-8,1,1,United States,San Jose,SAN JOSE
-254,-4,1,0,Puerto Rico,San Juan,SAN JUAN
-255,1,1,2,San Marino,San Marino,SAN MARINO
-256,-6,1,0,El Salvador,San Salvador,SAN SALVADOR
-257,3,1,0,Yemen,Sana'a,SANA'A
-258,-4,1,27,Chile,Santiago,SANTIAGO
-259,-4,1,0,Dominican,Santo Domingo,SANTO DOMINGO
-260,-3,1,0,Brazil,Sao Paulo,SAO PAULO
-261,-8,1,1,United States,Seattle,SEATTLE
-262,9,1,0,South Korea,Seoul,SEOUL
-263,8,1,0,China,Shanghai,SHANGHAI
-264,8,1,0,China,Shenzhen,SHENZHEN
-265,8,1,0,Singapore,Singapore,SINGAPORE
-266,1,1,2,Macedonia,Skopje,SKOPJE
-267,2,1,2,Bulgaria,Sofia,SOFIA
-268,-3.5,1,1,Canada,St. John's,ST. JOHN'S
-269,1,1,2,Sweden,Stockholm,STOCKHOLM
-270,12,1,19,Fiji,Suva,SUVA
-271,10,1,4,Australia,Sydney,SYDNEY
-272,8,1,0,Taiwan,Taipei,TAIPEI
-273,2,1,2,Estonia,Tallinn,TALLINN
-274,12,1,0,Kiribati,Tarawa,TARAWA
-275,5,1,0,Uzbekistan,Tashkent,TASHKENT
-276,4,1,0,Georgia,Tbilisi,TBILISI
-277,-6,1,0,Honduras,Tegucigalpa,TEGUCIGALPA
-278,3.5,1,0,Iran,Tehran,TEHRAN
-279,8,1,0,China,Tianjin,TIANJIN
-280,-8,1,1,Mexico,Tijuana,TIJUANA
-281,9,1,0,Japan,Tokyo,TOKYO
-282,-5,1,1,Canada,Toronto,TORONTO
-283,2,1,0,Libya,Tripoli,TRIPOLI
-284,1,1,0,Tunisia,Tunis,TUNIS
-285,1,1,2,Italy,Turin,TURIN
-286,5,1,0,Russia,Ufa,UFA
-287,8,1,0,Mongolia,Ulaanbaatar,ULAANBAATAR
-288,1,1,2,Liechtenstein,Vaduz,VADUZ
-289,1,1,2,Malta,Valletta,VALLETTA
-290,-8,1,1,Canada,Vancouver,VANCOUVER
-291,1,1,2,Italy,Verona,VERONA
-292,4,1,0,Seychelles,Victoria,VICTORIA
-293,1,1,2,Austria,Vienna,VIENNA
-294,2,1,2,Lithuania,Vilnius,VILNIUS
-295,10,1,0,Russia,Vladivostok,VLADIVOSTOK
-296,3,1,0,Russia,Volgograd,VOLGOGRAD
-297,1,1,2,Poland,Warsaw,WARSAW
-298,-5,1,1,United States,Washington DC,WASHINGTON DC
-299,12,1,5,New Zealand,Wellington,WELLINGTON
-300,-6,1,1,Canada,Winnipeg,WINNIPEG
-301,9,1,0,Russia,Yakutsk,YAKUTSK
-302,0,1,0,Cote d'lvoire,Yamoussoukro,YAMOUSSOUKRO
-303,6.5,1,0,Myanmar,Yangon,YANGON
-304,1,1,0,Cameroon,Yaounde,YAOUNDE
-305,5,1,0,Russia,Yekaterinburg,YEKATERINBURG
-306,4,1,0,Armenia,Yerevan,YEREVAN
-307,11,1,0,Russia,Yuzhno-Sakhalinsk,YUZHNO-SAKHALINSK
-308,1,1,2,Croatia,Zagreb,ZAGREB
-309,1,1,2,Switzerland,Zurich,ZURICH
-310,8.75,1,0,Australia,Eucla,EUCLA
-311,10.5,0.5,18,Australia,Lord Howe Island,LORD HOWE ISLAND
-312,11,1,4,Australia,Norfolk Island,NORFOLK ISLAND
-313,-12,1,0,United States,Baker Island,BAKER ISLAND
-314,-9.5,1,0,France,Marquesas Islands,MARQUESAS ISLANDS
+ID,Offset,DST Diff,DST Rule,Name,Country,City
+0,0,0,0,(UTC),,(UTC)
+1,0,1,0,ABIDJAN,Cote d'lvoire,Abidjan
+2,4,1,0,ABU DHABI,United Arab Emirates,Abu Dhabi
+3,0,1,0,ACCRA,Ghana,Accra
+4,3,1,0,ADDIS ABABA,Ethiopia,Addis Ababa
+5,9.5,1,4,ADELAIDE,Australia,Adelaide
+6,1,1,0,ALGIERS,Algeria,Algiers
+7,5,1,0,ALMATY,Kazakhstan,Almaty
+8,9,1,0,AMBON,Indonesia,Ambon
+9,3,1,0,AMMAN,Jordan,Amman
+10,1,1,2,AMSTERDAM,Netherlands,Amsterdam
+11,12,1,0,ANADYR,Russia,Anadyr
+12,-9,1,1,ANCHORAGE,United States,Anchorage
+13,3,1,0,ANKARA,Turkey,Ankara
+14,3,1,0,ANTANANARIVO,Madagascar,Antananarivo
+15,5,1,0,ASHGABAT,Turkmenistan,Ashgabat
+16,3,1,0,ASMARA,Eritrea,Asmara
+17,5,1,0,ASTANA,Kazakhstan,Astana
+18,-4,1,9,ASUNCION,Paraguay,Asuncion
+19,2,1,2,ATHENS,Greece,Athens
+20,-5,1,1,ATLANTA,United States,Atlanta
+21,12,1,5,AUCKLAND,New Zealand,Auckland
+22,-6,1,1,AUSTIN,United States,Austin
+23,3,1,0,BAGHDAD,Iraq,Baghdad
+24,4,1,0,BAKU,Azerbaijan,Baku
+25,-5,1,1,BALTIMORE,United States,Baltimore
+26,0,1,0,BAMAKO,Mali,Bamako
+27,5.5,1,0,BANGALORE,India,Bangalore
+28,7,1,0,BANGKOK,Thailand,Bangkok
+29,1,1,0,BANGUI,Central African Republic,Bangui
+30,1,1,2,BARCELONA,Spain,Barcelona
+31,1,1,2,BARI,Italy,Bari
+32,-4,1,0,BASSE-TERRE,Guadeloupe,Basse-Terre
+33,8,1,0,BEIJING,China,Beijing
+34,2,1,12,BEIRUT,Lebanon,Beirut
+35,1,1,2,BELGRADE,Serbia,Belgrade
+36,-6,1,0,BELIZE CITY,Belize,Belize City
+37,1,1,2,BERLIN,Germany,Berlin
+38,1,1,2,BERN,Switzerland,Bern
+39,6,1,0,BISHKEK,Kyegyzstan,Bishkek
+40,0,1,0,BISSAU,Guinea Bissau,Bissau
+41,-5,1,0,BOGOTA,Colombia,Bogota
+42,1,1,2,BOLOGNA,Italy,Bologna
+43,-5,1,1,BOSTON,United States,Boston
+44,-3,1,0,BRASILIA,Brazil,Brasilia
+45,1,1,2,BRATISLAVA,Slovakia,Bratislava
+46,-4,1,0,BRIDGETOWN,Barbados,Bridgetown
+47,10,1,0,BRISBANE,Australia,Brisbane
+48,1,1,2,BRUSSELS,Belgium,Brussels
+49,2,1,2,BUCHAREST,Romania,Bucharest
+50,1,1,2,BUDAPEST,Hungary,Budapest
+51,-3,1,0,BUENOS AIRES,Argentina,Buenos Aires
+52,2,1,22,CAIRO,Egypt,Cairo
+53,-7,1,1,CALGARY,Canada,Calgary
+54,10,1,4,CANBERRA,Australia,Canberra
+55,2,1,0,CAPE TOWN,South Africa,Cape Town
+56,-4,1,0,CARACAS,Venezuela,Caracas
+57,0,1,2,CARDIFF,Wales,Cardiff
+58,0,1,15,CASABLANCA,Morocco,Casablanca
+59,1,1,2,CATANZARO,Italy,Catanzaro
+60,-3,1,0,CAYENNE,French Guiana,Cayenne
+61,-5,1,1,CHARLOTTE,United States,Charlotte
+62,-4,1,0,CHARLOTTE AMALIE,US Virgin Islands,Charlotte Amalie
+63,12.75,1,23,CHATHAM ISLANDS,New Zealand,Chatham Islands
+64,5,1,0,CHELYABINSK,Russia,Chelyabinsk
+65,5.5,1,0,CHENNAI,India,Chennai
+66,-6,1,1,CHICAGO,United States,Chicago
+67,-6,1,0,CHIHUAHUA,Mexico,Chihuahua
+68,2,1,2,CHISINAU,Moldova,Chisinau
+69,9,1,0,CHITA,Russia,Chita
+70,-5,1,1,CLEVELAND,United States,Cleveland
+71,5.5,1,0,COLOMBO,Sri Lanka,Colombo
+72,-5,1,1,COLUMBUS,United States,Columbus
+73,0,1,0,CONAKRY,Guinea,Conakry
+74,1,1,2,COPENHAGEN,Denmark,Copenhagen
+75,0,1,2,CORK,Ireland,Cork
+76,1,1,2,CROTONE,Italy,Crotone
+77,0,1,0,DAKAR,Senegal,Dakar
+78,-6,1,1,DALLAS,United States,Dallas
+79,3,1,0,DAMASCUS,Syria,Damascus
+80,3,1,0,DAR ES SALAAM,Tanzania,Dar es Salaam
+81,9.5,1,0,DARWIN,Australia,Darwin
+82,5.5,1,0,DELHI,India,Delhi
+83,8,1,0,DENPASAR,Indonesia,Denpasar
+84,-7,1,1,DENVER,United States,Denver
+85,-5,1,1,DETROIT,United States,Detroit
+86,6,1,0,DHAKA,Bangladesh,Dhaka
+87,6,1,0,DIEGO GARCIA,UK,Diego Garcia
+88,3,1,0,DJIBOUTI,Djibouti,Djibouti
+89,3,1,0,DOHA,Qatar,Doha
+90,1,1,0,DOUALA,Cameroon,Douala
+91,4,1,0,DUBAI,United Arab Emirates,Dubai
+92,0,1,2,DUBLIN,Ireland,Dublin
+93,5,1,0,DUSHANBE,Tajikistan,Dushanbe
+94,-6,1,28,EASTER ISLAND,Chile,Easter Island
+95,0,1,2,EDINBURGH,Scotland,Edinburgh
+96,-7,1,1,EDMONTON,Canada,Edmonton
+97,-7,1,1,EL PASO,United States,El Paso
+98,-2,1,0,FERNANDO DE NORONHA,Brazil,Fernando de Noronha
+99,1,1,2,FLORENCE,Italy,Florence
+100,-4,1,0,FORT-DE-FRANCE,Martinique,Fort-de-France
+101,1,1,2,FRANKFURT,Germany,Frankfurt
+102,0,1,0,FREETOWN,Sierra Leone,Freetown
+103,2,1,0,GABORONE,Botswana,Gaborone
+104,-6,1,0,GALAPAGOS ISLANDS,Ecuador,Galapagos Islands
+105,1,1,2,GENEVA,Switzerland,Geneva
+106,1,1,2,GENOA,Italy,Genoa
+107,-4,1,0,GEORGE TOWN,Guyana,George Town
+108,-2,1,0,GRYTVIKEN,South Georgia,Grytviken
+109,10,1,0,GUAM,United States,Guam
+110,8,1,0,GUANGZHOU,China,Guangzhou
+111,-6,1,0,GUATEMALA CITY,Guatemala,Guatemala City
+112,8,1,0,HAIKOU,China,Haikou
+113,-4,1,1,HALIFAX,Canada,Halifax
+114,1,1,2,HAMBURG,Germany,Hamburg
+115,7,1,0,HANOI,Vietnam,Hanoi
+116,2,1,0,HARARE,Zimbabwe,Harare
+117,-5,1,21,HAVANA,Cuba,Havana
+118,2,1,2,HELSINKI,Finland,Helsinki
+119,-10,1,0,HILO,United States,Hilo
+120,7,1,0,HO CHI MINH CITY,Vietnam,Ho Chi Minh City
+121,10,1,4,HOBART,Australia,Hobart
+122,8,1,0,HONG KONG,Hong Kong,Hong Kong
+123,-10,1,0,HONOLULU,United States,Honolulu
+124,-6,1,1,HOUSTON,United States,Houston
+125,7,1,0,HOVD,Mongolia,Hovd
+126,5.5,1,0,HYDERABAD,India,Hyderabad
+127,-5,1,1,INDIANAPOLIS,United States,Indianapolis
+128,8,1,0,IRKUTSK,Russia,Irkutsk
+129,5,1,0,ISLAMABAD,Pakistan,Islamabad
+130,3,1,0,ISTANBUL,Turkey,Istanbul
+131,4,1,0,IZHEVSK,Russia,Izhevsk
+132,7,1,0,JAKARTA,Indonesia,Jakarta
+133,3,1,0,JEDDAH,Saudi Arabia,Jeddah
+134,2,1,42,JERUSALEM,,Jerusalem
+135,2,1,0,JOHANNESBURG,South Africa,Johannesburg
+136,4.5,1,0,KABUL,Afghanistan,Kabul
+137,2,1,0,KALININGRAD,Russia,Kaliningrad
+138,3,1,0,KAMPALA,Uganda,Kampala
+139,5,1,0,KARACHI,Pakistan,Karachi
+140,5.75,1,0,KATHMANDU,Nepal,Kathmandu
+141,10,1,0,KHABAROVSK,Russia,Khabarovsk
+142,2,1,2,KHARKIV,Ukraine,Kharkiv
+143,2,1,0,KHARTOUM,Sudan,Khartoum
+144,-5,1,1,KINGSTON,Canada,Kingston
+145,-5,1,0,KINGSTON,Jamaica,Kingston
+146,1,1,0,KINSHASA,D.R. Congo,Kinshasa
+147,14,1,0,KIRITIMATI,Kiribati,Kiritimati
+148,5.5,1,0,KOLKATA,India,Kolkata
+149,7,1,0,KRASNOYARSK,Russia,Krasnoyarsk
+150,8,1,0,KUALA LUMPUR,Malaysia,Kuala Lumpur
+151,3,1,0,KUWAIT CITY,Kuwait,Kuwait City
+152,2,1,2,KYIV,Ukraine,Kyiv
+153,-4,1,0,LA PAZ,Bolivia,La Paz
+154,1,1,0,LAGOS,Nigeria,Lagos
+155,0,1,14,LAS PALMAS,Canary Islands - Spain,Las Palmas
+156,-8,1,1,LAS VEGAS,United States,Las Vegas
+157,-5,1,0,LIMA,Peru,Lima
+158,0,1,2,LISBON,Portugal,Lisbon
+159,1,1,2,LJUBLJANA,Slivenia,Ljubljana
+160,0,1,2,LONDON,UK,London
+161,-8,1,1,LOS ANGELES,United States,Los Angeles
+162,-5,1,1,LOUISVILLE,United States,Louisville
+163,1,1,0,LUANDA,Angola,Luanda
+164,2,1,0,LUBUMBASHI,D.R. Congo,Lubumbashi
+165,2,1,0,LUSAKA,Zambia,Lusaka
+166,1,1,2,LUXEMBOURG,Luxembourg,Luxembourg
+167,2,1,2,LVIV,Ukraine,Lviv
+168,8,1,0,MACAU,China,Macau
+169,1,1,2,MADRID,Spain,Madrid
+170,11,1,0,MAGADAN,Russia,Magadan
+171,1,1,0,MALABO,Equaorial Guinea,Malabo
+172,5,1,0,MALE,Maldives,Male
+173,3,1,0,MAMOUDZOU,France,Mamoudzou
+174,-6,1,0,MANAGUA,Nicaragua,Managua
+175,3,1,0,MANAMA,Bahrain,Manama
+176,8,1,0,MANILA,Philippines,Manila
+177,2,1,0,MAPUTO,Mozambique,Maputo
+178,-4,1,0,MARIGOT,Saint Martin,Marigot
+179,-7,1,0,MAZATLAN,Mexico,Mazatlan
+180,3,1,0,MECCA,Saudi Arabia,Mecca
+181,10,1,4,MELBOURNE,Australia,Melbourne
+182,-6,1,1,MEMPHIS,United States,Memphis
+183,1,1,2,MESSINA,Italy,Messina
+184,-6,1,0,MEXICO CITY,Mexico,Mexico City
+185,-5,1,1,MIAMI,United States,Miami
+186,-11,1,0,MIDWAY,United States,Midway
+187,1,1,2,MILAN,Italy,Milan
+188,-6,1,1,MILWAUKEE,United States,Milwaukee
+189,3,1,0,MINSK,Belarus,Minsk
+190,3,1,0,MOGADISHU,Somalia,Mogadishu
+191,0,1,0,MONROVIA,Liberia,Monrovia
+192,-3,1,0,MONTEVIDEO,Uruguay,Montevideo
+193,-5,1,1,MONTREAL,Canada,Montreal
+194,3,1,0,MOSCOW,Russia,Moscow
+195,5.5,1,0,MUMBAI,India,Mumbai
+196,1,1,2,MUNICH,Germany,Munich
+197,4,1,0,MUSCAT,Oman,Muscat
+198,1,1,0,N'DJAMENA,Chad,N'Djamena
+199,3,1,0,NAIROBI,Kenya,Nairobi
+200,1,1,2,NAPLES,Italy,Naples
+201,1,1,2,NATERS,Switzerland,Naters
+202,-5,1,1,NEW YORK,United States,New York
+203,1,1,0,NIAMEY,Niger,Niamey
+204,0,1,0,NOUAKCHOTT,Mauritania,Nouakchott
+205,11,1,0,NOUMEA,New Caledonia,Noumea
+206,7,1,0,NOVOKUZNETSK,Russia,Novokuznetsk
+207,7,1,0,NOVOSIBIRSK,Russia,Novosibirsk
+208,13,1,0,NUKU'ALOFA,Tonga,Nuku'alofa
+209,-2,1,31,NUUK,Greenland,Nuuk
+210,6,1,0,OMSK,Russia,Omsk
+211,9,1,0,OSAKA,Japan,Osaka
+212,1,1,2,OSLO,Norway,Oslo
+213,-5,1,1,OTTAWA,Canada,Ottawa
+214,0,1,0,OUAGADOUGOU,Burkina Faso,Ouagadougou
+215,-11,1,0,PAGO PAGO,American Samoa,Pago Pago
+216,1,1,2,PALERMO,Italy,Palermo
+217,-5,1,0,PANAMA CITY,Panama,Panama City
+218,-10,1,0,PAPEETE,Tahiti - French Polynesia,Papeete
+219,-3,1,0,PARAMARIBO,Suriname,Paramaribo
+220,1,1,2,PARIS,France,Paris
+221,5,1,0,PERM,Russia,Perm
+222,8,1,0,PERTH,Australia,Perth
+223,12,1,0,KAMCHATKA,Russia,Petropavlovsk-Kamchatsky
+224,-5,1,1,PHILADELPHIA,United States,Philadelphia
+225,7,1,0,PHNOM PENH,Cambodia,Phnom Penh
+226,-7,1,0,PHOENIX,United States,Phoenix
+227,1,1,2,PODGORICA,Montenegro,Podgorica
+228,-1,1,2,PONTA DELGADA,Portugal,Ponta Delgada
+229,4,1,0,PORT LOUIS,Mauritius,Port Louis
+230,-5,1,1,PORT-AU-PRINCE,Haiti,Port-au-Prince
+231,-8,1,1,PORTLAND,United States,Portland
+232,1,1,2,PRAGUE,Czech,Prague
+233,-1,1,0,PRAIA,Cabo Verde,Praia
+234,9,1,0,PYONGYANG,North Korea,Pyongyang
+235,-5,1,0,QUITO,Ecuador,Quito
+236,0,1,15,RABAT,Morocco,Rabat
+237,-3,1,0,RECIFE,Brazil,Recife
+238,-6,1,0,REGINA,Canada,Regina
+239,0,1,0,REYKJAVIK,Iceland,Reykjavik
+240,2,1,2,RIGA,Latvia,Riga
+241,-3,1,0,RIO DE JANEIRO,Brazil,Rio de Janeiro
+242,3,1,0,RIYADH,Saudi Arabia,Riyadh
+243,1,1,2,ROME,Italy,Rome
+244,-4,1,1,SAINT JOHN,Canada,Saint John
+245,-4,1,0,SAINT JOHN'S,Antigua and Barbuda,Saint John's
+246,4,1,0,SAINT-DENIS,Reunion,Saint-Denis
+247,3,1,0,SAINT-PETERSBURG,Russia,Saint-Petersburg
+248,4,1,0,SAMARA,Russia,Samara
+249,-6,1,1,SAN ANTONIO,United States,San Antonio
+250,-8,1,1,SAN DIEGO,United States,San Diego
+251,-8,1,1,SAN FRANCISCO,United States,San Francisco
+252,-6,1,0,SAN JOSE,Costa Rica,San Jose
+253,-8,1,1,SAN JOSE,United States,San Jose
+254,-4,1,0,SAN JUAN,Puerto Rico,San Juan
+255,1,1,2,SAN MARINO,San Marino,San Marino
+256,-6,1,0,SAN SALVADOR,El Salvador,San Salvador
+257,3,1,0,SANA'A,Yemen,Sana'a
+258,-4,1,27,SANTIAGO,Chile,Santiago
+259,-4,1,0,SANTO DOMINGO,Dominican,Santo Domingo
+260,-3,1,0,SAO PAULO,Brazil,Sao Paulo
+261,-8,1,1,SEATTLE,United States,Seattle
+262,9,1,0,SEOUL,South Korea,Seoul
+263,8,1,0,SHANGHAI,China,Shanghai
+264,8,1,0,SHENZHEN,China,Shenzhen
+265,8,1,0,SINGAPORE,Singapore,Singapore
+266,1,1,2,SKOPJE,Macedonia,Skopje
+267,2,1,2,SOFIA,Bulgaria,Sofia
+268,-3.5,1,1,ST. JOHN'S,Canada,St. John's
+269,1,1,2,STOCKHOLM,Sweden,Stockholm
+270,12,1,19,SUVA,Fiji,Suva
+271,10,1,4,SYDNEY,Australia,Sydney
+272,8,1,0,TAIPEI,Taiwan,Taipei
+273,2,1,2,TALLINN,Estonia,Tallinn
+274,12,1,0,TARAWA,Kiribati,Tarawa
+275,5,1,0,TASHKENT,Uzbekistan,Tashkent
+276,4,1,0,TBILISI,Georgia,Tbilisi
+277,-6,1,0,TEGUCIGALPA,Honduras,Tegucigalpa
+278,3.5,1,0,TEHRAN,Iran,Tehran
+279,8,1,0,TIANJIN,China,Tianjin
+280,-8,1,1,TIJUANA,Mexico,Tijuana
+281,9,1,0,TOKYO,Japan,Tokyo
+282,-5,1,1,TORONTO,Canada,Toronto
+283,2,1,0,TRIPOLI,Libya,Tripoli
+284,1,1,0,TUNIS,Tunisia,Tunis
+285,1,1,2,TURIN,Italy,Turin
+286,5,1,0,UFA,Russia,Ufa
+287,8,1,0,ULAANBAATAR,Mongolia,Ulaanbaatar
+288,1,1,2,VADUZ,Liechtenstein,Vaduz
+289,1,1,2,VALLETTA,Malta,Valletta
+290,-8,1,1,VANCOUVER,Canada,Vancouver
+291,1,1,2,VERONA,Italy,Verona
+292,4,1,0,VICTORIA,Seychelles,Victoria
+293,1,1,2,VIENNA,Austria,Vienna
+294,2,1,2,VILNIUS,Lithuania,Vilnius
+295,10,1,0,VLADIVOSTOK,Russia,Vladivostok
+296,3,1,0,VOLGOGRAD,Russia,Volgograd
+297,1,1,2,WARSAW,Poland,Warsaw
+298,-5,1,1,WASHINGTON DC,United States,Washington DC
+299,12,1,5,WELLINGTON,New Zealand,Wellington
+300,-6,1,1,WINNIPEG,Canada,Winnipeg
+301,9,1,0,YAKUTSK,Russia,Yakutsk
+302,0,1,0,YAMOUSSOUKRO,Cote d'lvoire,Yamoussoukro
+303,6.5,1,0,YANGON,Myanmar,Yangon
+304,1,1,0,YAOUNDE,Cameroon,Yaounde
+305,5,1,0,YEKATERINBURG,Russia,Yekaterinburg
+306,4,1,0,YEREVAN,Armenia,Yerevan
+307,11,1,0,YUZHNO-SAKHALINSK,Russia,Yuzhno-Sakhalinsk
+308,1,1,2,ZAGREB,Croatia,Zagreb
+309,1,1,2,ZURICH,Switzerland,Zurich
+310,8.75,1,0,EUCLA,Australia,Eucla
+311,10.5,0.5,18,LORD HOWE ISLAND,Australia,Lord Howe Island
+312,11,1,4,NORFOLK ISLAND,Australia,Norfolk Island
+313,-12,1,0,BAKER ISLAND,United States,Baker Island
+314,-9.5,1,0,MARQUESAS ISLANDS,France,Marquesas Islands

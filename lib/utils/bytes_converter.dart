@@ -1,4 +1,4 @@
-import 'package:g_square/models/time_zone.dart';
+import 'package:g_square/models/clock.dart';
 
 class BytesConverter {
   static List<int> dateTimeToBytes(DateTime date) {

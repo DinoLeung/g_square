@@ -1,598 +1,598 @@
-ID,Timezone,DST Diff,DST Rule,OS Time Zone,Name
-30000,0,1,0,Africa/Abidjan,ABIDJAN
-30001,0,1,0,Africa/Accra,ACCRA
-30002,3,1,0,Africa/Addis_Ababa,ADDIS ABABA
-30003,1,1,0,Africa/Algiers,ALGIERS
-30004,3,1,0,Africa/Asmara,ASMARA
-30005,3,1,0,Africa/Asmera,ASMERA
-30006,0,1,0,Africa/Bamako,BAMAKO
-30007,1,1,0,Africa/Bangui,BANGUI
-30008,0,1,0,Africa/Banjul,BANJUL
-30009,0,1,0,Africa/Bissau,BISSAU
-30010,2,1,0,Africa/Blantyre,BLANTYRE
-30011,1,1,0,Africa/Brazzaville,BRAZZAVILLE
-30012,2,1,0,Africa/Bujumbura,BUJUMBURA
-30013,2,1,22,Africa/Cairo,CAIRO
-30014,0,1,15,Africa/Casablanca,CASABLANCA
-30015,1,1,2,Africa/Ceuta,CEUTA
-30016,0,1,0,Africa/Conakry,CONAKRY
-30017,0,1,0,Africa/Dakar,DAKAR
-30018,3,1,0,Africa/Dar_es_Salaam,DAR ES SALAAM
-30019,3,1,0,Africa/Djibouti,DJIBOUTI
-30020,1,1,0,Africa/Douala,DOUALA
-30021,0,1,15,Africa/El_Aaiun,EL AAIUN
-30022,0,1,0,Africa/Freetown,FREETOWN
-30023,2,1,0,Africa/Gaborone,GABORONE
-30024,2,1,0,Africa/Harare,HARARE
-30025,2,1,0,Africa/Johannesburg,JOHANNESBURG
-30026,3,1,0,Africa/Juba,JUBA
-30027,3,1,0,Africa/Kampala,KAMPALA
-30028,2,1,0,Africa/Khartoum,KHARTOUM
-30029,2,1,0,Africa/Kigali,KIGALI
-30030,1,1,0,Africa/Kinshasa,KINSHASA
-30031,1,1,0,Africa/Lagos,LAGOS
-30032,1,1,0,Africa/Libreville,LIBREVILLE
-30033,0,1,0,Africa/Lome,LOME
-30034,1,1,0,Africa/Luanda,LUANDA
-30035,2,1,0,Africa/Lubumbashi,LUBUMBASHI
-30036,2,1,0,Africa/Lusaka,LUSAKA
-30037,1,1,0,Africa/Malabo,MALABO
-30038,2,1,0,Africa/Maputo,MAPUTO
-30039,2,1,0,Africa/Maseru,MASERU
-30040,2,1,0,Africa/Mbabane,MBABANE
-30041,3,1,0,Africa/Mogadishu,MOGADISHU
-30042,0,1,0,Africa/Monrovia,MONROVIA
-30043,3,1,0,Africa/Nairobi,NAIROBI
-30044,1,1,0,Africa/Ndjamena,NDJAMENA
-30045,1,1,0,Africa/Niamey,NIAMEY
-30046,0,1,0,Africa/Nouakchott,NOUAKCHOTT
-30047,0,1,0,Africa/Ouagadougou,OUAGADOUGOU
-30048,1,1,0,Africa/Porto-Novo,PORTO-NOVO
-30049,0,1,0,Africa/Sao_Tome,SAO TOME
-30050,0,1,0,Africa/Timbuktu,TIMBUKTU
-30051,2,1,0,Africa/Tripoli,TRIPOLI
-30052,1,1,0,Africa/Tunis,TUNIS
-30053,2,1,0,Africa/Windhoek,WINDHOEK
-30054,-10,1,1,America/Adak,ADAK
-30055,-9,1,1,America/Anchorage,ANCHORAGE
-30056,-4,1,0,America/Anguilla,ANGUILLA
-30057,-4,1,0,America/Antigua,ANTIGUA
-30058,-3,1,0,America/Araguaina,ARAGUAINA
-30059,-3,1,0,America/Argentina/Buenos_Aires,BUENOS AIRES
-30060,-3,1,0,America/Argentina/Catamarca,CATAMARCA
-30061,-3,1,0,America/Argentina/ComodRivadavia,COMODRIVADAVIA
-30062,-3,1,0,America/Argentina/Cordoba,CORDOBA
-30063,-3,1,0,America/Argentina/Jujuy,JUJUY
-30064,-3,1,0,America/Argentina/La_Rioja,LA RIOJA
-30065,-3,1,0,America/Argentina/Mendoza,MENDOZA
-30066,-3,1,0,America/Argentina/Rio_Gallegos,RIO GALLEGOS
-30067,-3,1,0,America/Argentina/Salta,SALTA
-30068,-3,1,0,America/Argentina/San_Juan,SAN JUAN
-30069,-3,1,0,America/Argentina/San_Luis,SAN LUIS
-30070,-3,1,0,America/Argentina/Tucuman,TUCUMAN
-30071,-3,1,0,America/Argentina/Ushuaia,USHUAIA
-30072,-4,1,0,America/Aruba,ARUBA
-30073,-4,1,9,America/Asuncion,ASUNCION
-30074,-5,1,0,America/Atikokan,ATIKOKAN
-30075,-10,1,1,America/Atka,ATKA
-30076,-3,1,0,America/Bahia,BAHIA
-30077,-6,1,0,America/Bahia_Banderas,BAHIA BANDERAS
-30078,-4,1,0,America/Barbados,BARBADOS
-30079,-3,1,0,America/Belem,BELEM
-30080,-6,1,0,America/Belize,BELIZE
-30081,-4,1,0,America/Blanc-Sablon,BLANC-SABLON
-30082,-4,1,0,America/Boa_Vista,BOA VISTA
-30083,-5,1,0,America/Bogota,BOGOTA
-30084,-7,1,1,America/Boise,BOISE
-30085,-3,1,0,America/Buenos_Aires,BUENOS AIRES
-30086,-7,1,1,America/Cambridge_Bay,CAMBRIDGE BAY
-30087,-4,1,0,America/Campo_Grande,CAMPO GRANDE
-30088,-5,1,0,America/Cancun,CANCUN
-30089,-4,1,0,America/Caracas,CARACAS
-30090,-3,1,0,America/Catamarca,CATAMARCA
-30091,-3,1,0,America/Cayenne,CAYENNE
-30092,-5,1,0,America/Cayman,CAYMAN
-30093,-6,1,1,America/Chicago,CHICAGO
-30094,-6,1,0,America/Chihuahua,CHIHUAHUA
-30095,-5,1,0,America/Coral_Harbour,CORAL HARBOUR
-30096,-3,1,0,America/Cordoba,CORDOBA
-30097,-6,1,0,America/Costa_Rica,COSTA RICA
-30098,-7,1,0,America/Creston,CRESTON
-30099,-4,1,0,America/Cuiaba,CUIABA
-30100,-4,1,0,America/Curacao,CURACAO
-30101,0,1,0,America/Danmarkshavn,DANMARKSHAVN
-30102,-8,1,1,America/Dawson,DAWSON
-30103,-7,1,0,America/Dawson_Creek,DAWSON CREEK
-30104,-7,1,1,America/Denver,DENVER
-30105,-5,1,1,America/Detroit,DETROIT
-30106,-4,1,0,America/Dominica,DOMINICA
-30107,-7,1,1,America/Edmonton,EDMONTON
-30108,-5,1,0,America/Eirunepe,EIRUNEPE
-30109,-6,1,0,America/El_Salvador,EL SALVADOR
-30110,-8,1,1,America/Ensenada,ENSENADA
-30111,-5,1,1,America/Fort_Wayne,FORT WAYNE
-30112,-3,1,0,America/Fortaleza,FORTALEZA
-30113,-4,1,1,America/Glace_Bay,GLACE BAY
-30114,-2,1,31,America/Godthab,GODTHAB
-30115,-4,1,1,America/Goose_Bay,GOOSE BAY
-30116,-5,1,1,America/Grand_Turk,GRAND TURK
-30117,-4,1,0,America/Grenada,GRENADA
-30118,-4,1,0,America/Guadeloupe,GUADELOUPE
-30119,-6,1,0,America/Guatemala,GUATEMALA
-30120,-5,1,0,America/Guayaquil,GUAYAQUIL
-30121,-4,1,0,America/Guyana,GUYANA
-30122,-4,1,1,America/Halifax,HALIFAX
-30123,-5,1,21,America/Havana,HAVANA
-30124,-7,1,0,America/Hermosillo,HERMOSILLO
-30125,-5,1,1,America/Indiana/Indianapolis,INDIANAPOLIS
-30126,-6,1,1,America/Indiana/Knox,KNOX
-30127,-5,1,1,America/Indiana/Marengo,MARENGO
-30128,-5,1,1,America/Indiana/Petersburg,PETERSBURG
-30129,-6,1,1,America/Indiana/Tell_City,TELL CITY
-30130,-5,1,1,America/Indiana/Vevay,VEVAY
-30131,-5,1,1,America/Indiana/Vincennes,VINCENNES
-30132,-5,1,1,America/Indiana/Winamac,WINAMAC
-30133,-5,1,1,America/Indianapolis,INDIANAPOLIS
-30134,-7,1,1,America/Inuvik,INUVIK
-30135,-5,1,1,America/Iqaluit,IQALUIT
-30136,-5,1,0,America/Jamaica,JAMAICA
-30137,-3,1,0,America/Jujuy,JUJUY
-30138,-9,1,1,America/Juneau,JUNEAU
-30139,-5,1,1,America/Kentucky/Louisville,LOUISVILLE
-30140,-5,1,1,America/Kentucky/Monticello,MONTICELLO
-30141,-6,1,1,America/Knox_IN,KNOX IN
-30142,-4,1,0,America/Kralendijk,KRALENDIJK
-30143,-4,1,0,America/La_Paz,LA PAZ
-30144,-5,1,0,America/Lima,LIMA
-30145,-8,1,1,America/Los_Angeles,LOS ANGELES
-30146,-5,1,1,America/Louisville,LOUISVILLE
-30147,-4,1,0,America/Lower_Princes,LOWER PRINCES
-30148,-3,1,0,America/Maceio,MACEIO
-30149,-6,1,0,America/Managua,MANAGUA
-30150,-4,1,0,America/Manaus,MANAUS
-30151,-4,1,0,America/Marigot,MARIGOT
-30152,-4,1,0,America/Martinique,MARTINIQUE
-30153,-6,1,1,America/Matamoros,MATAMOROS
-30154,-7,1,0,America/Mazatlan,MAZATLAN
-30155,-3,1,0,America/Mendoza,MENDOZA
-30156,-6,1,1,America/Menominee,MENOMINEE
-30157,-6,1,0,America/Merida,MERIDA
-30158,-9,1,1,America/Metlakatla,METLAKATLA
-30159,-6,1,0,America/Mexico_City,MEXICO CITY
-30160,-3,1,1,America/Miquelon,MIQUELON
-30161,-4,1,1,America/Moncton,MONCTON
-30162,-6,1,0,America/Monterrey,MONTERREY
-30163,-3,1,0,America/Montevideo,MONTEVIDEO
-30164,-5,1,1,America/Montreal,MONTREAL
-30165,-4,1,0,America/Montserrat,MONTSERRAT
-30166,-5,1,1,America/Nassau,NASSAU
-30167,-5,1,1,America/New_York,NEW YORK
-30168,-5,1,1,America/Nipigon,NIPIGON
-30169,-9,1,1,America/Nome,NOME
-30170,-2,1,0,America/Noronha,NORONHA
-30171,-6,1,1,America/North_Dakota/Beulah,BEULAH
-30172,-6,1,1,America/North_Dakota/Center,CENTER
-30173,-6,1,1,America/North_Dakota/New_Salem,NEW SALEM
-30174,-6,1,0,America/Ojinaga,OJINAGA
-30175,-5,1,0,America/Panama,PANAMA
-30176,-5,1,1,America/Pangnirtung,PANGNIRTUNG
-30177,-3,1,0,America/Paramaribo,PARAMARIBO
-30178,-7,1,0,America/Phoenix,PHOENIX
-30179,-5,1,1,America/Port-au-Prince,PORT-AU-PRINCE
-30180,-4,1,0,America/Port_of_Spain,PORT OF SPAIN
-30181,-5,1,0,America/Porto_Acre,PORTO ACRE
-30182,-4,1,0,America/Porto_Velho,PORTO VELHO
-30183,-4,1,0,America/Puerto_Rico,PUERTO RICO
-30184,-6,1,1,America/Rainy_River,RAINY RIVER
-30185,-6,1,1,America/Rankin_Inlet,RANKIN INLET
-30186,-3,1,0,America/Recife,RECIFE
-30187,-6,1,0,America/Regina,REGINA
-30188,-6,1,1,America/Resolute,RESOLUTE
-30189,-5,1,0,America/Rio_Branco,RIO BRANCO
-30190,-3,1,0,America/Rosario,ROSARIO
-30191,-8,1,1,America/Santa_Isabel,SANTA ISABEL
-30192,-3,1,0,America/Santarem,SANTAREM
-30193,-4,1,27,America/Santiago,SANTIAGO
-30194,-4,1,0,America/Santo_Domingo,SANTO DOMINGO
-30195,-3,1,0,America/Sao_Paulo,SAO PAULO
-30196,-1,1,2,America/Scoresbysund,SCORESBYSUND
-30197,-7,1,1,America/Shiprock,SHIPROCK
-30198,-9,1,1,America/Sitka,SITKA
-30199,-4,1,0,America/St_Barthelemy,ST BARTHELEMY
-30200,-3.5,1,1,America/St_Johns,ST JOHNS
-30201,-4,1,0,America/St_Kitts,ST KITTS
-30202,-4,1,0,America/St_Lucia,ST LUCIA
-30203,-4,1,0,America/St_Thomas,ST THOMAS
-30204,-4,1,0,America/St_Vincent,ST VINCENT
-30205,-6,1,0,America/Swift_Current,SWIFT CURRENT
-30206,-6,1,0,America/Tegucigalpa,TEGUCIGALPA
-30207,-4,1,1,America/Thule,THULE
-30208,-5,1,1,America/Thunder_Bay,THUNDER BAY
-30209,-8,1,1,America/Tijuana,TIJUANA
-30210,-5,1,1,America/Toronto,TORONTO
-30211,-4,1,0,America/Tortola,TORTOLA
-30212,-8,1,1,America/Vancouver,VANCOUVER
-30213,-4,1,0,America/Virgin,VIRGIN
-30214,-8,1,1,America/Whitehorse,WHITEHORSE
-30215,-6,1,1,America/Winnipeg,WINNIPEG
-30216,-9,1,1,America/Yakutat,YAKUTAT
-30217,-7,1,1,America/Yellowknife,YELLOWKNIFE
-30218,8,1,0,Antarctica/Casey,CASEY
-30219,7,1,0,Antarctica/Davis,DAVIS
-30220,10,1,0,Antarctica/DumontDUrville,DUMONTDURVILLE
-30221,11,1,0,Antarctica/Macquarie,MACQUARIE
-30222,5,1,0,Antarctica/Mawson,MAWSON
-30223,12,1,5,Antarctica/McMurdo,MCMURDO
-30224,-3,1,0,Antarctica/Palmer,PALMER
-30225,-3,1,0,Antarctica/Rothera,ROTHERA
-30226,12,1,5,Antarctica/South_Pole,SOUTH POLE
-30227,3,1,0,Antarctica/Syowa,SYOWA
-30228,0,2,2,Antarctica/Troll,TROLL
-30229,6,1,0,Antarctica/Vostok,VOSTOK
-30230,1,1,2,Arctic/Longyearbyen,LONGYEARBYEN
-30231,3,1,0,Asia/Aden,ADEN
-30232,5,1,0,Asia/Almaty,ALMATY
-30233,3,1,0,Asia/Amman,AMMAN
-30234,12,1,0,Asia/Anadyr,ANADYR
-30235,5,1,0,Asia/Aqtau,AQTAU
-30236,5,1,0,Asia/Aqtobe,AQTOBE
-30237,5,1,0,Asia/Ashgabat,ASHGABAT
-30238,5,1,0,Asia/Ashkhabad,ASHKHABAD
-30239,3,1,0,Asia/Baghdad,BAGHDAD
-30240,3,1,0,Asia/Bahrain,BAHRAIN
-30241,4,1,0,Asia/Baku,BAKU
-30242,7,1,0,Asia/Bangkok,BANGKOK
-30243,2,1,12,Asia/Beirut,BEIRUT
-30244,6,1,0,Asia/Bishkek,BISHKEK
-30245,8,1,0,Asia/Brunei,BRUNEI
-30246,5.5,1,0,Asia/Calcutta,CALCUTTA
-30247,8,1,0,Asia/Choibalsan,CHOIBALSAN
-30248,8,1,0,Asia/Chongqing,CHONGQING
-30249,8,1,0,Asia/Chungking,CHUNGKING
-30250,5.5,1,0,Asia/Colombo,COLOMBO
-30251,6,1,0,Asia/Dacca,DACCA
-30252,3,1,0,Asia/Damascus,DAMASCUS
-30253,6,1,0,Asia/Dhaka,DHAKA
-30254,9,1,0,Asia/Dili,DILI
-30255,4,1,0,Asia/Dubai,DUBAI
-30256,5,1,0,Asia/Dushanbe,DUSHANBE
-30257,2,1,29,Asia/Gaza,GAZA
-30258,8,1,0,Asia/Harbin,HARBIN
-30259,2,1,29,Asia/Hebron,HEBRON
-30260,7,1,0,Asia/Ho_Chi_Minh,HO CHI MINH
-30261,8,1,0,Asia/Hong_Kong,HONG KONG
-30262,7,1,0,Asia/Hovd,HOVD
-30263,8,1,0,Asia/Irkutsk,IRKUTSK
-30264,3,1,0,Asia/Istanbul,ISTANBUL
-30265,7,1,0,Asia/Jakarta,JAKARTA
-30266,9,1,0,Asia/Jayapura,JAYAPURA
-30267,2,1,42,Asia/Jerusalem,JERUSALEM
-30268,4.5,1,0,Asia/Kabul,KABUL
-30269,12,1,0,Asia/Kamchatka,KAMCHATKA
-30270,5,1,0,Asia/Karachi,KARACHI
-30271,8,1,0,Asia/Kashgar,KASHGAR
-30272,5.75,1,0,Asia/Kathmandu,KATHMANDU
-30273,5.75,1,0,Asia/Katmandu,KATMANDU
-30274,9,1,0,Asia/Khandyga,KHANDYGA
-30275,5.5,1,0,Asia/Kolkata,KOLKATA
-30276,7,1,0,Asia/Krasnoyarsk,KRASNOYARSK
-30277,8,1,0,Asia/Kuala_Lumpur,KUALA LUMPUR
-30278,8,1,0,Asia/Kuching,KUCHING
-30279,3,1,0,Asia/Kuwait,KUWAIT
-30280,8,1,0,Asia/Macao,MACAO
-30281,8,1,0,Asia/Macau,MACAU
-30282,11,1,0,Asia/Magadan,MAGADAN
-30283,8,1,0,Asia/Makassar,MAKASSAR
-30284,8,1,0,Asia/Manila,MANILA
-30285,4,1,0,Asia/Muscat,MUSCAT
-30286,2,1,3,Asia/Nicosia,NICOSIA
-30287,7,1,0,Asia/Novokuznetsk,NOVOKUZNETSK
-30288,7,1,0,Asia/Novosibirsk,NOVOSIBIRSK
-30289,6,1,0,Asia/Omsk,OMSK
-30290,5,1,0,Asia/Oral,ORAL
-30291,7,1,0,Asia/Phnom_Penh,PHNOM PENH
-30292,7,1,0,Asia/Pontianak,PONTIANAK
-30293,9,1,0,Asia/Pyongyang,PYONGYANG
-30294,3,1,0,Asia/Qatar,QATAR
-30295,5,1,0,Asia/Qyzylorda,QYZYLORDA
-30296,6.5,1,0,Asia/Rangoon,RANGOON
-30297,3,1,0,Asia/Riyadh,RIYADH
-30298,7,1,0,Asia/Saigon,SAIGON
-30299,11,1,0,Asia/Sakhalin,SAKHALIN
-30300,5,1,0,Asia/Samarkand,SAMARKAND
-30301,9,1,0,Asia/Seoul,SEOUL
-30302,8,1,0,Asia/Shanghai,SHANGHAI
-30303,8,1,0,Asia/Singapore,SINGAPORE
-30304,8,1,0,Asia/Taipei,TAIPEI
-30305,5,1,0,Asia/Tashkent,TASHKENT
-30306,4,1,0,Asia/Tbilisi,TBILISI
-30307,3.5,1,0,Asia/Tehran,TEHRAN
-30308,2,1,42,Asia/Tel_Aviv,TEL AVIV
-30309,6,1,0,Asia/Thimbu,THIMBU
-30310,6,1,0,Asia/Thimphu,THIMPHU
-30311,9,1,0,Asia/Tokyo,TOKYO
-30312,8,1,0,Asia/Ujung_Pandang,UJUNG PANDANG
-30313,8,1,0,Asia/Ulaanbaatar,ULAANBAATAR
-30314,8,1,0,Asia/Ulan_Bator,ULAN BATOR
-30315,8,1,0,Asia/Urumqi,URUMQI
-30316,10,1,0,Asia/Ust-Nera,UST-NERA
-30317,7,1,0,Asia/Vientiane,VIENTIANE
-30318,10,1,0,Asia/Vladivostok,VLADIVOSTOK
-30319,9,1,0,Asia/Yakutsk,YAKUTSK
-30320,5,1,0,Asia/Yekaterinburg,YEKATERINBURG
-30321,4,1,0,Asia/Yerevan,YEREVAN
-30322,-1,1,2,Atlantic/Azores,AZORES
-30323,-4,1,1,Atlantic/Bermuda,BERMUDA
-30324,0,1,14,Atlantic/Canary,CANARY
-30325,-1,1,0,Atlantic/Cape_Verde,CAPE VERDE
-30326,0,1,2,Atlantic/Faeroe,FAEROE
-30327,0,1,2,Atlantic/Faroe,FAROE
-30328,1,1,2,Atlantic/Jan_Mayen,JAN MAYEN
-30329,0,1,2,Atlantic/Madeira,MADEIRA
-30330,0,1,0,Atlantic/Reykjavik,REYKJAVIK
-30331,-2,1,0,Atlantic/South_Georgia,SOUTH GEORGIA
-30332,0,1,0,Atlantic/St_Helena,ST HELENA
-30333,-3,1,0,Atlantic/Stanley,STANLEY
-30334,10,1,4,Australia/ACT,ACT
-30335,9.5,1,4,Australia/Adelaide,ADELAIDE
-30336,10,1,0,Australia/Brisbane,BRISBANE
-30337,9.5,1,4,Australia/Broken_Hill,BROKEN HILL
-30338,10,1,4,Australia/Canberra,CANBERRA
-30339,10,1,4,Australia/Currie,CURRIE
-30340,9.5,1,0,Australia/Darwin,DARWIN
-30341,8.75,1,0,Australia/Eucla,EUCLA
-30342,10,1,4,Australia/Hobart,HOBART
-30343,10.5,0.5,18,Australia/LHI,LHI
-30344,10,1,0,Australia/Lindeman,LINDEMAN
-30345,10.5,0.5,18,Australia/Lord_Howe,LORD HOWE
-30346,10,1,4,Australia/Melbourne,MELBOURNE
-30347,10,1,4,Australia/NSW,NSW
-30348,9.5,1,0,Australia/North,NORTH
-30349,8,1,0,Australia/Perth,PERTH
-30350,10,1,0,Australia/Queensland,QUEENSLAND
-30351,9.5,1,4,Australia/South,SOUTH
-30352,10,1,4,Australia/Sydney,SYDNEY
-30353,10,1,4,Australia/Tasmania,TASMANIA
-30354,10,1,4,Australia/Victoria,VICTORIA
-30355,8,1,0,Australia/West,WEST
-30356,9.5,1,4,Australia/Yancowinna,YANCOWINNA
-30357,-5,1,0,Brazil/Acre,ACRE
-30358,-2,1,0,Brazil/DeNoronha,DENORONHA
-30359,-3,1,0,Brazil/East,EAST
-30360,-4,1,0,Brazil/West,WEST
+ID,Offset,DST Diff,DST Rule,Name,Timezone
+30000,0,1,0,ABIDJAN,Africa/Abidjan
+30001,0,1,0,ACCRA,Africa/Accra
+30002,3,1,0,ADDIS ABABA,Africa/Addis_Ababa
+30003,1,1,0,ALGIERS,Africa/Algiers
+30004,3,1,0,ASMARA,Africa/Asmara
+30005,3,1,0,ASMERA,Africa/Asmera
+30006,0,1,0,BAMAKO,Africa/Bamako
+30007,1,1,0,BANGUI,Africa/Bangui
+30008,0,1,0,BANJUL,Africa/Banjul
+30009,0,1,0,BISSAU,Africa/Bissau
+30010,2,1,0,BLANTYRE,Africa/Blantyre
+30011,1,1,0,BRAZZAVILLE,Africa/Brazzaville
+30012,2,1,0,BUJUMBURA,Africa/Bujumbura
+30013,2,1,22,CAIRO,Africa/Cairo
+30014,0,1,15,CASABLANCA,Africa/Casablanca
+30015,1,1,2,CEUTA,Africa/Ceuta
+30016,0,1,0,CONAKRY,Africa/Conakry
+30017,0,1,0,DAKAR,Africa/Dakar
+30018,3,1,0,DAR ES SALAAM,Africa/Dar_es_Salaam
+30019,3,1,0,DJIBOUTI,Africa/Djibouti
+30020,1,1,0,DOUALA,Africa/Douala
+30021,0,1,15,EL AAIUN,Africa/El_Aaiun
+30022,0,1,0,FREETOWN,Africa/Freetown
+30023,2,1,0,GABORONE,Africa/Gaborone
+30024,2,1,0,HARARE,Africa/Harare
+30025,2,1,0,JOHANNESBURG,Africa/Johannesburg
+30026,3,1,0,JUBA,Africa/Juba
+30027,3,1,0,KAMPALA,Africa/Kampala
+30028,2,1,0,KHARTOUM,Africa/Khartoum
+30029,2,1,0,KIGALI,Africa/Kigali
+30030,1,1,0,KINSHASA,Africa/Kinshasa
+30031,1,1,0,LAGOS,Africa/Lagos
+30032,1,1,0,LIBREVILLE,Africa/Libreville
+30033,0,1,0,LOME,Africa/Lome
+30034,1,1,0,LUANDA,Africa/Luanda
+30035,2,1,0,LUBUMBASHI,Africa/Lubumbashi
+30036,2,1,0,LUSAKA,Africa/Lusaka
+30037,1,1,0,MALABO,Africa/Malabo
+30038,2,1,0,MAPUTO,Africa/Maputo
+30039,2,1,0,MASERU,Africa/Maseru
+30040,2,1,0,MBABANE,Africa/Mbabane
+30041,3,1,0,MOGADISHU,Africa/Mogadishu
+30042,0,1,0,MONROVIA,Africa/Monrovia
+30043,3,1,0,NAIROBI,Africa/Nairobi
+30044,1,1,0,NDJAMENA,Africa/Ndjamena
+30045,1,1,0,NIAMEY,Africa/Niamey
+30046,0,1,0,NOUAKCHOTT,Africa/Nouakchott
+30047,0,1,0,OUAGADOUGOU,Africa/Ouagadougou
+30048,1,1,0,PORTO-NOVO,Africa/Porto-Novo
+30049,0,1,0,SAO TOME,Africa/Sao_Tome
+30050,0,1,0,TIMBUKTU,Africa/Timbuktu
+30051,2,1,0,TRIPOLI,Africa/Tripoli
+30052,1,1,0,TUNIS,Africa/Tunis
+30053,2,1,0,WINDHOEK,Africa/Windhoek
+30054,-10,1,1,ADAK,America/Adak
+30055,-9,1,1,ANCHORAGE,America/Anchorage
+30056,-4,1,0,ANGUILLA,America/Anguilla
+30057,-4,1,0,ANTIGUA,America/Antigua
+30058,-3,1,0,ARAGUAINA,America/Araguaina
+30059,-3,1,0,BUENOS AIRES,America/Argentina/Buenos_Aires
+30060,-3,1,0,CATAMARCA,America/Argentina/Catamarca
+30061,-3,1,0,COMODRIVADAVIA,America/Argentina/ComodRivadavia
+30062,-3,1,0,CORDOBA,America/Argentina/Cordoba
+30063,-3,1,0,JUJUY,America/Argentina/Jujuy
+30064,-3,1,0,LA RIOJA,America/Argentina/La_Rioja
+30065,-3,1,0,MENDOZA,America/Argentina/Mendoza
+30066,-3,1,0,RIO GALLEGOS,America/Argentina/Rio_Gallegos
+30067,-3,1,0,SALTA,America/Argentina/Salta
+30068,-3,1,0,SAN JUAN,America/Argentina/San_Juan
+30069,-3,1,0,SAN LUIS,America/Argentina/San_Luis
+30070,-3,1,0,TUCUMAN,America/Argentina/Tucuman
+30071,-3,1,0,USHUAIA,America/Argentina/Ushuaia
+30072,-4,1,0,ARUBA,America/Aruba
+30073,-4,1,9,ASUNCION,America/Asuncion
+30074,-5,1,0,ATIKOKAN,America/Atikokan
+30075,-10,1,1,ATKA,America/Atka
+30076,-3,1,0,BAHIA,America/Bahia
+30077,-6,1,0,BAHIA BANDERAS,America/Bahia_Banderas
+30078,-4,1,0,BARBADOS,America/Barbados
+30079,-3,1,0,BELEM,America/Belem
+30080,-6,1,0,BELIZE,America/Belize
+30081,-4,1,0,BLANC-SABLON,America/Blanc-Sablon
+30082,-4,1,0,BOA VISTA,America/Boa_Vista
+30083,-5,1,0,BOGOTA,America/Bogota
+30084,-7,1,1,BOISE,America/Boise
+30085,-3,1,0,BUENOS AIRES,America/Buenos_Aires
+30086,-7,1,1,CAMBRIDGE BAY,America/Cambridge_Bay
+30087,-4,1,0,CAMPO GRANDE,America/Campo_Grande
+30088,-5,1,0,CANCUN,America/Cancun
+30089,-4,1,0,CARACAS,America/Caracas
+30090,-3,1,0,CATAMARCA,America/Catamarca
+30091,-3,1,0,CAYENNE,America/Cayenne
+30092,-5,1,0,CAYMAN,America/Cayman
+30093,-6,1,1,CHICAGO,America/Chicago
+30094,-6,1,0,CHIHUAHUA,America/Chihuahua
+30095,-5,1,0,CORAL HARBOUR,America/Coral_Harbour
+30096,-3,1,0,CORDOBA,America/Cordoba
+30097,-6,1,0,COSTA RICA,America/Costa_Rica
+30098,-7,1,0,CRESTON,America/Creston
+30099,-4,1,0,CUIABA,America/Cuiaba
+30100,-4,1,0,CURACAO,America/Curacao
+30101,0,1,0,DANMARKSHAVN,America/Danmarkshavn
+30102,-8,1,1,DAWSON,America/Dawson
+30103,-7,1,0,DAWSON CREEK,America/Dawson_Creek
+30104,-7,1,1,DENVER,America/Denver
+30105,-5,1,1,DETROIT,America/Detroit
+30106,-4,1,0,DOMINICA,America/Dominica
+30107,-7,1,1,EDMONTON,America/Edmonton
+30108,-5,1,0,EIRUNEPE,America/Eirunepe
+30109,-6,1,0,EL SALVADOR,America/El_Salvador
+30110,-8,1,1,ENSENADA,America/Ensenada
+30111,-5,1,1,FORT WAYNE,America/Fort_Wayne
+30112,-3,1,0,FORTALEZA,America/Fortaleza
+30113,-4,1,1,GLACE BAY,America/Glace_Bay
+30114,-2,1,31,GODTHAB,America/Godthab
+30115,-4,1,1,GOOSE BAY,America/Goose_Bay
+30116,-5,1,1,GRAND TURK,America/Grand_Turk
+30117,-4,1,0,GRENADA,America/Grenada
+30118,-4,1,0,GUADELOUPE,America/Guadeloupe
+30119,-6,1,0,GUATEMALA,America/Guatemala
+30120,-5,1,0,GUAYAQUIL,America/Guayaquil
+30121,-4,1,0,GUYANA,America/Guyana
+30122,-4,1,1,HALIFAX,America/Halifax
+30123,-5,1,21,HAVANA,America/Havana
+30124,-7,1,0,HERMOSILLO,America/Hermosillo
+30125,-5,1,1,INDIANAPOLIS,America/Indiana/Indianapolis
+30126,-6,1,1,KNOX,America/Indiana/Knox
+30127,-5,1,1,MARENGO,America/Indiana/Marengo
+30128,-5,1,1,PETERSBURG,America/Indiana/Petersburg
+30129,-6,1,1,TELL CITY,America/Indiana/Tell_City
+30130,-5,1,1,VEVAY,America/Indiana/Vevay
+30131,-5,1,1,VINCENNES,America/Indiana/Vincennes
+30132,-5,1,1,WINAMAC,America/Indiana/Winamac
+30133,-5,1,1,INDIANAPOLIS,America/Indianapolis
+30134,-7,1,1,INUVIK,America/Inuvik
+30135,-5,1,1,IQALUIT,America/Iqaluit
+30136,-5,1,0,JAMAICA,America/Jamaica
+30137,-3,1,0,JUJUY,America/Jujuy
+30138,-9,1,1,JUNEAU,America/Juneau
+30139,-5,1,1,LOUISVILLE,America/Kentucky/Louisville
+30140,-5,1,1,MONTICELLO,America/Kentucky/Monticello
+30141,-6,1,1,KNOX IN,America/Knox_IN
+30142,-4,1,0,KRALENDIJK,America/Kralendijk
+30143,-4,1,0,LA PAZ,America/La_Paz
+30144,-5,1,0,LIMA,America/Lima
+30145,-8,1,1,LOS ANGELES,America/Los_Angeles
+30146,-5,1,1,LOUISVILLE,America/Louisville
+30147,-4,1,0,LOWER PRINCES,America/Lower_Princes
+30148,-3,1,0,MACEIO,America/Maceio
+30149,-6,1,0,MANAGUA,America/Managua
+30150,-4,1,0,MANAUS,America/Manaus
+30151,-4,1,0,MARIGOT,America/Marigot
+30152,-4,1,0,MARTINIQUE,America/Martinique
+30153,-6,1,1,MATAMOROS,America/Matamoros
+30154,-7,1,0,MAZATLAN,America/Mazatlan
+30155,-3,1,0,MENDOZA,America/Mendoza
+30156,-6,1,1,MENOMINEE,America/Menominee
+30157,-6,1,0,MERIDA,America/Merida
+30158,-9,1,1,METLAKATLA,America/Metlakatla
+30159,-6,1,0,MEXICO CITY,America/Mexico_City
+30160,-3,1,1,MIQUELON,America/Miquelon
+30161,-4,1,1,MONCTON,America/Moncton
+30162,-6,1,0,MONTERREY,America/Monterrey
+30163,-3,1,0,MONTEVIDEO,America/Montevideo
+30164,-5,1,1,MONTREAL,America/Montreal
+30165,-4,1,0,MONTSERRAT,America/Montserrat
+30166,-5,1,1,NASSAU,America/Nassau
+30167,-5,1,1,NEW YORK,America/New_York
+30168,-5,1,1,NIPIGON,America/Nipigon
+30169,-9,1,1,NOME,America/Nome
+30170,-2,1,0,NORONHA,America/Noronha
+30171,-6,1,1,BEULAH,America/North_Dakota/Beulah
+30172,-6,1,1,CENTER,America/North_Dakota/Center
+30173,-6,1,1,NEW SALEM,America/North_Dakota/New_Salem
+30174,-6,1,0,OJINAGA,America/Ojinaga
+30175,-5,1,0,PANAMA,America/Panama
+30176,-5,1,1,PANGNIRTUNG,America/Pangnirtung
+30177,-3,1,0,PARAMARIBO,America/Paramaribo
+30178,-7,1,0,PHOENIX,America/Phoenix
+30179,-5,1,1,PORT-AU-PRINCE,America/Port-au-Prince
+30180,-4,1,0,PORT OF SPAIN,America/Port_of_Spain
+30181,-5,1,0,PORTO ACRE,America/Porto_Acre
+30182,-4,1,0,PORTO VELHO,America/Porto_Velho
+30183,-4,1,0,PUERTO RICO,America/Puerto_Rico
+30184,-6,1,1,RAINY RIVER,America/Rainy_River
+30185,-6,1,1,RANKIN INLET,America/Rankin_Inlet
+30186,-3,1,0,RECIFE,America/Recife
+30187,-6,1,0,REGINA,America/Regina
+30188,-6,1,1,RESOLUTE,America/Resolute
+30189,-5,1,0,RIO BRANCO,America/Rio_Branco
+30190,-3,1,0,ROSARIO,America/Rosario
+30191,-8,1,1,SANTA ISABEL,America/Santa_Isabel
+30192,-3,1,0,SANTAREM,America/Santarem
+30193,-4,1,27,SANTIAGO,America/Santiago
+30194,-4,1,0,SANTO DOMINGO,America/Santo_Domingo
+30195,-3,1,0,SAO PAULO,America/Sao_Paulo
+30196,-1,1,2,SCORESBYSUND,America/Scoresbysund
+30197,-7,1,1,SHIPROCK,America/Shiprock
+30198,-9,1,1,SITKA,America/Sitka
+30199,-4,1,0,ST BARTHELEMY,America/St_Barthelemy
+30200,-3.5,1,1,ST JOHNS,America/St_Johns
+30201,-4,1,0,ST KITTS,America/St_Kitts
+30202,-4,1,0,ST LUCIA,America/St_Lucia
+30203,-4,1,0,ST THOMAS,America/St_Thomas
+30204,-4,1,0,ST VINCENT,America/St_Vincent
+30205,-6,1,0,SWIFT CURRENT,America/Swift_Current
+30206,-6,1,0,TEGUCIGALPA,America/Tegucigalpa
+30207,-4,1,1,THULE,America/Thule
+30208,-5,1,1,THUNDER BAY,America/Thunder_Bay
+30209,-8,1,1,TIJUANA,America/Tijuana
+30210,-5,1,1,TORONTO,America/Toronto
+30211,-4,1,0,TORTOLA,America/Tortola
+30212,-8,1,1,VANCOUVER,America/Vancouver
+30213,-4,1,0,VIRGIN,America/Virgin
+30214,-8,1,1,WHITEHORSE,America/Whitehorse
+30215,-6,1,1,WINNIPEG,America/Winnipeg
+30216,-9,1,1,YAKUTAT,America/Yakutat
+30217,-7,1,1,YELLOWKNIFE,America/Yellowknife
+30218,8,1,0,CASEY,Antarctica/Casey
+30219,7,1,0,DAVIS,Antarctica/Davis
+30220,10,1,0,DUMONTDURVILLE,Antarctica/DumontDUrville
+30221,11,1,0,MACQUARIE,Antarctica/Macquarie
+30222,5,1,0,MAWSON,Antarctica/Mawson
+30223,12,1,5,MCMURDO,Antarctica/McMurdo
+30224,-3,1,0,PALMER,Antarctica/Palmer
+30225,-3,1,0,ROTHERA,Antarctica/Rothera
+30226,12,1,5,SOUTH POLE,Antarctica/South_Pole
+30227,3,1,0,SYOWA,Antarctica/Syowa
+30228,0,2,2,TROLL,Antarctica/Troll
+30229,6,1,0,VOSTOK,Antarctica/Vostok
+30230,1,1,2,LONGYEARBYEN,Arctic/Longyearbyen
+30231,3,1,0,ADEN,Asia/Aden
+30232,5,1,0,ALMATY,Asia/Almaty
+30233,3,1,0,AMMAN,Asia/Amman
+30234,12,1,0,ANADYR,Asia/Anadyr
+30235,5,1,0,AQTAU,Asia/Aqtau
+30236,5,1,0,AQTOBE,Asia/Aqtobe
+30237,5,1,0,ASHGABAT,Asia/Ashgabat
+30238,5,1,0,ASHKHABAD,Asia/Ashkhabad
+30239,3,1,0,BAGHDAD,Asia/Baghdad
+30240,3,1,0,BAHRAIN,Asia/Bahrain
+30241,4,1,0,BAKU,Asia/Baku
+30242,7,1,0,BANGKOK,Asia/Bangkok
+30243,2,1,12,BEIRUT,Asia/Beirut
+30244,6,1,0,BISHKEK,Asia/Bishkek
+30245,8,1,0,BRUNEI,Asia/Brunei
+30246,5.5,1,0,CALCUTTA,Asia/Calcutta
+30247,8,1,0,CHOIBALSAN,Asia/Choibalsan
+30248,8,1,0,CHONGQING,Asia/Chongqing
+30249,8,1,0,CHUNGKING,Asia/Chungking
+30250,5.5,1,0,COLOMBO,Asia/Colombo
+30251,6,1,0,DACCA,Asia/Dacca
+30252,3,1,0,DAMASCUS,Asia/Damascus
+30253,6,1,0,DHAKA,Asia/Dhaka
+30254,9,1,0,DILI,Asia/Dili
+30255,4,1,0,DUBAI,Asia/Dubai
+30256,5,1,0,DUSHANBE,Asia/Dushanbe
+30257,2,1,29,GAZA,Asia/Gaza
+30258,8,1,0,HARBIN,Asia/Harbin
+30259,2,1,29,HEBRON,Asia/Hebron
+30260,7,1,0,HO CHI MINH,Asia/Ho_Chi_Minh
+30261,8,1,0,HONG KONG,Asia/Hong_Kong
+30262,7,1,0,HOVD,Asia/Hovd
+30263,8,1,0,IRKUTSK,Asia/Irkutsk
+30264,3,1,0,ISTANBUL,Asia/Istanbul
+30265,7,1,0,JAKARTA,Asia/Jakarta
+30266,9,1,0,JAYAPURA,Asia/Jayapura
+30267,2,1,42,JERUSALEM,Asia/Jerusalem
+30268,4.5,1,0,KABUL,Asia/Kabul
+30269,12,1,0,KAMCHATKA,Asia/Kamchatka
+30270,5,1,0,KARACHI,Asia/Karachi
+30271,8,1,0,KASHGAR,Asia/Kashgar
+30272,5.75,1,0,KATHMANDU,Asia/Kathmandu
+30273,5.75,1,0,KATMANDU,Asia/Katmandu
+30274,9,1,0,KHANDYGA,Asia/Khandyga
+30275,5.5,1,0,KOLKATA,Asia/Kolkata
+30276,7,1,0,KRASNOYARSK,Asia/Krasnoyarsk
+30277,8,1,0,KUALA LUMPUR,Asia/Kuala_Lumpur
+30278,8,1,0,KUCHING,Asia/Kuching
+30279,3,1,0,KUWAIT,Asia/Kuwait
+30280,8,1,0,MACAO,Asia/Macao
+30281,8,1,0,MACAU,Asia/Macau
+30282,11,1,0,MAGADAN,Asia/Magadan
+30283,8,1,0,MAKASSAR,Asia/Makassar
+30284,8,1,0,MANILA,Asia/Manila
+30285,4,1,0,MUSCAT,Asia/Muscat
+30286,2,1,3,NICOSIA,Asia/Nicosia
+30287,7,1,0,NOVOKUZNETSK,Asia/Novokuznetsk
+30288,7,1,0,NOVOSIBIRSK,Asia/Novosibirsk
+30289,6,1,0,OMSK,Asia/Omsk
+30290,5,1,0,ORAL,Asia/Oral
+30291,7,1,0,PHNOM PENH,Asia/Phnom_Penh
+30292,7,1,0,PONTIANAK,Asia/Pontianak
+30293,9,1,0,PYONGYANG,Asia/Pyongyang
+30294,3,1,0,QATAR,Asia/Qatar
+30295,5,1,0,QYZYLORDA,Asia/Qyzylorda
+30296,6.5,1,0,RANGOON,Asia/Rangoon
+30297,3,1,0,RIYADH,Asia/Riyadh
+30298,7,1,0,SAIGON,Asia/Saigon
+30299,11,1,0,SAKHALIN,Asia/Sakhalin
+30300,5,1,0,SAMARKAND,Asia/Samarkand
+30301,9,1,0,SEOUL,Asia/Seoul
+30302,8,1,0,SHANGHAI,Asia/Shanghai
+30303,8,1,0,SINGAPORE,Asia/Singapore
+30304,8,1,0,TAIPEI,Asia/Taipei
+30305,5,1,0,TASHKENT,Asia/Tashkent
+30306,4,1,0,TBILISI,Asia/Tbilisi
+30307,3.5,1,0,TEHRAN,Asia/Tehran
+30308,2,1,42,TEL AVIV,Asia/Tel_Aviv
+30309,6,1,0,THIMBU,Asia/Thimbu
+30310,6,1,0,THIMPHU,Asia/Thimphu
+30311,9,1,0,TOKYO,Asia/Tokyo
+30312,8,1,0,UJUNG PANDANG,Asia/Ujung_Pandang
+30313,8,1,0,ULAANBAATAR,Asia/Ulaanbaatar
+30314,8,1,0,ULAN BATOR,Asia/Ulan_Bator
+30315,8,1,0,URUMQI,Asia/Urumqi
+30316,10,1,0,UST-NERA,Asia/Ust-Nera
+30317,7,1,0,VIENTIANE,Asia/Vientiane
+30318,10,1,0,VLADIVOSTOK,Asia/Vladivostok
+30319,9,1,0,YAKUTSK,Asia/Yakutsk
+30320,5,1,0,YEKATERINBURG,Asia/Yekaterinburg
+30321,4,1,0,YEREVAN,Asia/Yerevan
+30322,-1,1,2,AZORES,Atlantic/Azores
+30323,-4,1,1,BERMUDA,Atlantic/Bermuda
+30324,0,1,14,CANARY,Atlantic/Canary
+30325,-1,1,0,CAPE VERDE,Atlantic/Cape_Verde
+30326,0,1,2,FAEROE,Atlantic/Faeroe
+30327,0,1,2,FAROE,Atlantic/Faroe
+30328,1,1,2,JAN MAYEN,Atlantic/Jan_Mayen
+30329,0,1,2,MADEIRA,Atlantic/Madeira
+30330,0,1,0,REYKJAVIK,Atlantic/Reykjavik
+30331,-2,1,0,SOUTH GEORGIA,Atlantic/South_Georgia
+30332,0,1,0,ST HELENA,Atlantic/St_Helena
+30333,-3,1,0,STANLEY,Atlantic/Stanley
+30334,10,1,4,ACT,Australia/ACT
+30335,9.5,1,4,ADELAIDE,Australia/Adelaide
+30336,10,1,0,BRISBANE,Australia/Brisbane
+30337,9.5,1,4,BROKEN HILL,Australia/Broken_Hill
+30338,10,1,4,CANBERRA,Australia/Canberra
+30339,10,1,4,CURRIE,Australia/Currie
+30340,9.5,1,0,DARWIN,Australia/Darwin
+30341,8.75,1,0,EUCLA,Australia/Eucla
+30342,10,1,4,HOBART,Australia/Hobart
+30343,10.5,0.5,18,LHI,Australia/LHI
+30344,10,1,0,LINDEMAN,Australia/Lindeman
+30345,10.5,0.5,18,LORD HOWE,Australia/Lord_Howe
+30346,10,1,4,MELBOURNE,Australia/Melbourne
+30347,10,1,4,NSW,Australia/NSW
+30348,9.5,1,0,NORTH,Australia/North
+30349,8,1,0,PERTH,Australia/Perth
+30350,10,1,0,QUEENSLAND,Australia/Queensland
+30351,9.5,1,4,SOUTH,Australia/South
+30352,10,1,4,SYDNEY,Australia/Sydney
+30353,10,1,4,TASMANIA,Australia/Tasmania
+30354,10,1,4,VICTORIA,Australia/Victoria
+30355,8,1,0,WEST,Australia/West
+30356,9.5,1,4,YANCOWINNA,Australia/Yancowinna
+30357,-5,1,0,ACRE,Brazil/Acre
+30358,-2,1,0,DENORONHA,Brazil/DeNoronha
+30359,-3,1,0,EAST,Brazil/East
+30360,-4,1,0,WEST,Brazil/West
 30361,1,1,2,CET,CET
 30362,-6,1,1,CST6CDT,CST6CDT
-30363,-4,1,1,Canada/Atlantic,ATLANTIC
-30364,-6,1,1,Canada/Central,CENTRAL
-30365,-6,1,0,Canada/East-Saskatchewan,EAST-SASKATCHEWAN
-30366,-5,1,1,Canada/Eastern,EASTERN
-30367,-7,1,1,Canada/Mountain,MOUNTAIN
-30368,-3.5,1,1,Canada/Newfoundland,NEWFOUNDLAND
-30369,-8,1,1,Canada/Pacific,PACIFIC
-30370,-6,1,0,Canada/Saskatchewan,SASKATCHEWAN
-30371,-8,1,0,Canada/Yukon,YUKON
-30372,-4,1,27,Chile/Continental,CONTINENTAL
-30373,-6,1,28,Chile/EasterIsland,EASTERISLAND
-30374,-5,1,21,Cuba,CUBA
-30375,2,1,0,EET,EET 
-30376,-5,1,0,EST,EST 
+30363,-4,1,1,ATLANTIC,Canada/Atlantic
+30364,-6,1,1,CENTRAL,Canada/Central
+30365,-6,1,0,EAST-SASKATCHEWAN,Canada/East-Saskatchewan
+30366,-5,1,1,EASTERN,Canada/Eastern
+30367,-7,1,1,MOUNTAIN,Canada/Mountain
+30368,-3.5,1,1,NEWFOUNDLAND,Canada/Newfoundland
+30369,-8,1,1,PACIFIC,Canada/Pacific
+30370,-6,1,0,SASKATCHEWAN,Canada/Saskatchewan
+30371,-8,1,0,YUKON,Canada/Yukon
+30372,-4,1,27,CONTINENTAL,Chile/Continental
+30373,-6,1,28,EASTERISLAND,Chile/EasterIsland
+30374,-5,1,21,CUBA,Cuba
+30375,2,1,0,EET ,EET
+30376,-5,1,0,EST ,EST
 30377,-5,1,1,EST5EDT,EST5EDT
-30378,2,1,22,Egypt,EGYPT
-30379,0,1,2,Eire,EIRE
-30380,0,0,0,Etc/GMT,GMT
-30381,0,1,0,Etc/GMT+0,GMT+0
-30382,-1,1,0,Etc/GMT+1,GMT+1
-30383,-10,1,0,Etc/GMT+10,GMT+10
-30384,-11,1,0,Etc/GMT+11,GMT+11
-30385,-12,1,0,Etc/GMT+12,GMT+12
-30386,-2,1,0,Etc/GMT+2,GMT+2
-30387,-3,1,0,Etc/GMT+3,GMT+3
-30388,-4,1,0,Etc/GMT+4,GMT+4
-30389,-5,1,0,Etc/GMT+5,GMT+5
-30390,-6,1,0,Etc/GMT+6,GMT+6
-30391,-7,1,0,Etc/GMT+7,GMT+7
-30392,-8,1,0,Etc/GMT+8,GMT+8
-30393,-9,1,0,Etc/GMT+9,GMT+9
-30394,0,1,0,Etc/GMT-0,GMT-0
-30395,1,1,0,Etc/GMT-1,GMT-1
-30396,10,1,0,Etc/GMT-10,GMT-10
-30397,11,1,0,Etc/GMT-11,GMT-11
-30398,12,1,0,Etc/GMT-12,GMT-12
-30399,13,1,0,Etc/GMT-13,GMT-13
-30400,14,1,0,Etc/GMT-14,GMT-14
-30401,2,1,0,Etc/GMT-2,GMT-2
-30402,3,1,0,Etc/GMT-3,GMT-3
-30403,4,1,0,Etc/GMT-4,GMT-4
-30404,5,1,0,Etc/GMT-5,GMT-5
-30405,6,1,0,Etc/GMT-6,GMT-6
-30406,7,1,0,Etc/GMT-7,GMT-7
-30407,8,1,0,Etc/GMT-8,GMT-8
-30408,9,1,0,Etc/GMT-9,GMT-9
-30409,0,1,0,Etc/GMT0,GMT0
-30410,0,0,0,Etc/Greenwich,GREENWICH
-30411,0,0,0,Etc/UCT,UCT
-30412,0,0,0,Etc/UTC,UTC
-30413,0,0,0,Etc/Universal,UNIVERSAL
-30414,0,0,0,Etc/Zulu,ZULU
-30415,1,1,2,Europe/Amsterdam,AMSTERDAM
-30416,1,1,2,Europe/Andorra,ANDORRA
-30417,2,1,2,Europe/Athens,ATHENS
-30418,0,1,2,Europe/Belfast,BELFAST
-30419,1,1,2,Europe/Belgrade,BELGRADE
-30420,1,1,2,Europe/Berlin,BERLIN
-30421,1,1,2,Europe/Bratislava,BRATISLAVA
-30422,1,1,2,Europe/Brussels,BRUSSELS
-30423,2,1,2,Europe/Bucharest,BUCHAREST
-30424,1,1,2,Europe/Budapest,BUDAPEST
-30425,1,1,2,Europe/Busingen,BUSINGEN
-30426,2,1,2,Europe/Chisinau,CHISINAU
-30427,1,1,2,Europe/Copenhagen,COPENHAGEN
-30428,0,1,2,Europe/Dublin,DUBLIN
-30429,1,1,2,Europe/Gibraltar,GIBRALTAR
-30430,0,1,2,Europe/Guernsey,GUERNSEY
-30431,2,1,2,Europe/Helsinki,HELSINKI
-30432,0,1,2,Europe/Isle_of_Man,ISLE OF MAN
-30433,3,1,0,Europe/Istanbul,ISTANBUL
-30434,0,1,2,Europe/Jersey,JERSEY
-30435,2,1,0,Europe/Kaliningrad,KALININGRAD
-30436,2,1,2,Europe/Kiev,KYIV
-30437,0,1,2,Europe/Lisbon,LISBON
-30438,1,1,2,Europe/Ljubljana,LJUBLJANA
-30439,0,1,2,Europe/London,LONDON
-30440,1,1,2,Europe/Luxembourg,LUXEMBOURG
-30441,1,1,2,Europe/Madrid,MADRID
-30442,1,1,2,Europe/Malta,MALTA
-30443,2,1,2,Europe/Mariehamn,MARIEHAMN
-30444,3,1,0,Europe/Minsk,MINSK
-30445,1,1,2,Europe/Monaco,MONACO
-30446,3,1,0,Europe/Moscow,MOSCOW
-30447,2,1,3,Europe/Nicosia,NICOSIA
-30448,1,1,2,Europe/Oslo,OSLO
-30449,1,1,2,Europe/Paris,PARIS
-30450,1,1,2,Europe/Podgorica,PODGORICA
-30451,1,1,2,Europe/Prague,PRAGUE
-30452,2,1,2,Europe/Riga,RIGA
-30453,1,1,2,Europe/Rome,ROME
-30454,4,1,0,Europe/Samara,SAMARA
-30455,1,1,2,Europe/San_Marino,SAN MARINO
-30456,1,1,2,Europe/Sarajevo,SARAJEVO
-30457,3,1,0,Europe/Simferopol,SIMFEROPOL
-30458,1,1,2,Europe/Skopje,SKOPJE
-30459,2,1,2,Europe/Sofia,SOFIA
-30460,1,1,2,Europe/Stockholm,STOCKHOLM
-30461,2,1,2,Europe/Tallinn,TALLINN
-30462,1,1,2,Europe/Tirane,TIRANE
-30463,2,1,2,Europe/Tiraspol,TIRASPOL
-30464,2,1,2,Europe/Uzhgorod,UZHGOROD
-30465,1,1,2,Europe/Vaduz,VADUZ
-30466,1,1,2,Europe/Vatican,VATICAN
-30467,1,1,2,Europe/Vienna,VIENNA
-30468,2,1,2,Europe/Vilnius,VILNIUS
-30469,3,1,0,Europe/Volgograd,VOLGOGRAD
-30470,1,1,2,Europe/Warsaw,WARSAW
-30471,1,1,2,Europe/Zagreb,ZAGREB
-30472,2,1,2,Europe/Zaporozhye,ZAPOROZHYE
-30473,1,1,2,Europe/Zurich,ZURICH
+30378,2,1,22,EGYPT,Egypt
+30379,0,1,2,EIRE,Eire
+30380,0,0,0,GMT,Etc/GMT
+30381,0,1,0,GMT+0,Etc/GMT+0
+30382,-1,1,0,GMT+1,Etc/GMT+1
+30383,-10,1,0,GMT+10,Etc/GMT+10
+30384,-11,1,0,GMT+11,Etc/GMT+11
+30385,-12,1,0,GMT+12,Etc/GMT+12
+30386,-2,1,0,GMT+2,Etc/GMT+2
+30387,-3,1,0,GMT+3,Etc/GMT+3
+30388,-4,1,0,GMT+4,Etc/GMT+4
+30389,-5,1,0,GMT+5,Etc/GMT+5
+30390,-6,1,0,GMT+6,Etc/GMT+6
+30391,-7,1,0,GMT+7,Etc/GMT+7
+30392,-8,1,0,GMT+8,Etc/GMT+8
+30393,-9,1,0,GMT+9,Etc/GMT+9
+30394,0,1,0,GMT-0,Etc/GMT-0
+30395,1,1,0,GMT-1,Etc/GMT-1
+30396,10,1,0,GMT-10,Etc/GMT-10
+30397,11,1,0,GMT-11,Etc/GMT-11
+30398,12,1,0,GMT-12,Etc/GMT-12
+30399,13,1,0,GMT-13,Etc/GMT-13
+30400,14,1,0,GMT-14,Etc/GMT-14
+30401,2,1,0,GMT-2,Etc/GMT-2
+30402,3,1,0,GMT-3,Etc/GMT-3
+30403,4,1,0,GMT-4,Etc/GMT-4
+30404,5,1,0,GMT-5,Etc/GMT-5
+30405,6,1,0,GMT-6,Etc/GMT-6
+30406,7,1,0,GMT-7,Etc/GMT-7
+30407,8,1,0,GMT-8,Etc/GMT-8
+30408,9,1,0,GMT-9,Etc/GMT-9
+30409,0,1,0,GMT0,Etc/GMT0
+30410,0,0,0,GREENWICH,Etc/Greenwich
+30411,0,0,0,UCT,Etc/UCT
+30412,0,0,0,UTC,Etc/UTC
+30413,0,0,0,UNIVERSAL,Etc/Universal
+30414,0,0,0,ZULU,Etc/Zulu
+30415,1,1,2,AMSTERDAM,Europe/Amsterdam
+30416,1,1,2,ANDORRA,Europe/Andorra
+30417,2,1,2,ATHENS,Europe/Athens
+30418,0,1,2,BELFAST,Europe/Belfast
+30419,1,1,2,BELGRADE,Europe/Belgrade
+30420,1,1,2,BERLIN,Europe/Berlin
+30421,1,1,2,BRATISLAVA,Europe/Bratislava
+30422,1,1,2,BRUSSELS,Europe/Brussels
+30423,2,1,2,BUCHAREST,Europe/Bucharest
+30424,1,1,2,BUDAPEST,Europe/Budapest
+30425,1,1,2,BUSINGEN,Europe/Busingen
+30426,2,1,2,CHISINAU,Europe/Chisinau
+30427,1,1,2,COPENHAGEN,Europe/Copenhagen
+30428,0,1,2,DUBLIN,Europe/Dublin
+30429,1,1,2,GIBRALTAR,Europe/Gibraltar
+30430,0,1,2,GUERNSEY,Europe/Guernsey
+30431,2,1,2,HELSINKI,Europe/Helsinki
+30432,0,1,2,ISLE OF MAN,Europe/Isle_of_Man
+30433,3,1,0,ISTANBUL,Europe/Istanbul
+30434,0,1,2,JERSEY,Europe/Jersey
+30435,2,1,0,KALININGRAD,Europe/Kaliningrad
+30436,2,1,2,KYIV,Europe/Kiev
+30437,0,1,2,LISBON,Europe/Lisbon
+30438,1,1,2,LJUBLJANA,Europe/Ljubljana
+30439,0,1,2,LONDON,Europe/London
+30440,1,1,2,LUXEMBOURG,Europe/Luxembourg
+30441,1,1,2,MADRID,Europe/Madrid
+30442,1,1,2,MALTA,Europe/Malta
+30443,2,1,2,MARIEHAMN,Europe/Mariehamn
+30444,3,1,0,MINSK,Europe/Minsk
+30445,1,1,2,MONACO,Europe/Monaco
+30446,3,1,0,MOSCOW,Europe/Moscow
+30447,2,1,3,NICOSIA,Europe/Nicosia
+30448,1,1,2,OSLO,Europe/Oslo
+30449,1,1,2,PARIS,Europe/Paris
+30450,1,1,2,PODGORICA,Europe/Podgorica
+30451,1,1,2,PRAGUE,Europe/Prague
+30452,2,1,2,RIGA,Europe/Riga
+30453,1,1,2,ROME,Europe/Rome
+30454,4,1,0,SAMARA,Europe/Samara
+30455,1,1,2,SAN MARINO,Europe/San_Marino
+30456,1,1,2,SARAJEVO,Europe/Sarajevo
+30457,3,1,0,SIMFEROPOL,Europe/Simferopol
+30458,1,1,2,SKOPJE,Europe/Skopje
+30459,2,1,2,SOFIA,Europe/Sofia
+30460,1,1,2,STOCKHOLM,Europe/Stockholm
+30461,2,1,2,TALLINN,Europe/Tallinn
+30462,1,1,2,TIRANE,Europe/Tirane
+30463,2,1,2,TIRASPOL,Europe/Tiraspol
+30464,2,1,2,UZHGOROD,Europe/Uzhgorod
+30465,1,1,2,VADUZ,Europe/Vaduz
+30466,1,1,2,VATICAN,Europe/Vatican
+30467,1,1,2,VIENNA,Europe/Vienna
+30468,2,1,2,VILNIUS,Europe/Vilnius
+30469,3,1,0,VOLGOGRAD,Europe/Volgograd
+30470,1,1,2,WARSAW,Europe/Warsaw
+30471,1,1,2,ZAGREB,Europe/Zagreb
+30472,2,1,2,ZAPOROZHYE,Europe/Zaporozhye
+30473,1,1,2,ZURICH,Europe/Zurich
 30474,0,1,2,GB,GB
-30475,0,1,2,GB-Eire,GB-EIRE
+30475,0,1,2,GB-EIRE,GB-Eire
 30476,0,0,0,GMT,GMT
 30477,0,1,0,GMT+0,GMT+0
 30478,0,1,0,GMT-0,GMT-0
 30479,0,1,0,GMT0,GMT0
-30480,0,0,0,Greenwich,GREENWICH
+30480,0,0,0,GREENWICH,Greenwich
 30481,-10,1,0,HST,HST
-30482,8,1,0,Hongkong,HONGKONG
-30483,0,1,0,Iceland,ICELAND
-30484,3,1,0,Indian/Antananarivo,ANTANANARIVO
-30485,6,1,0,Indian/Chagos,CHAGOS
-30486,7,1,0,Indian/Christmas,CHRISTMAS
-30487,6.5,1,0,Indian/Cocos,COCOS
-30488,3,1,0,Indian/Comoro,COMORO
-30489,5,1,0,Indian/Kerguelen,KERGUELEN
-30490,4,1,0,Indian/Mahe,MAHE
-30491,5,1,0,Indian/Maldives,MALDIVES
-30492,4,1,0,Indian/Mauritius,MAURITIUS
-30493,3,1,0,Indian/Mayotte,MAYOTTE
-30494,4,1,0,Indian/Reunion,REUNION
-30495,3.5,1,0,Iran,IRAN
-30496,2,1,42,Israel,ISRAEL
-30497,-5,1,0,Jamaica,JAMAICA
-30498,9,1,0,Japan,JAPAN
-30499,12,1,0,Kwajalein,KWAJALEIN
-30500,2,1,0,Libya,LIBYA
+30482,8,1,0,HONGKONG,Hongkong
+30483,0,1,0,ICELAND,Iceland
+30484,3,1,0,ANTANANARIVO,Indian/Antananarivo
+30485,6,1,0,CHAGOS,Indian/Chagos
+30486,7,1,0,CHRISTMAS,Indian/Christmas
+30487,6.5,1,0,COCOS,Indian/Cocos
+30488,3,1,0,COMORO,Indian/Comoro
+30489,5,1,0,KERGUELEN,Indian/Kerguelen
+30490,4,1,0,MAHE,Indian/Mahe
+30491,5,1,0,MALDIVES,Indian/Maldives
+30492,4,1,0,MAURITIUS,Indian/Mauritius
+30493,3,1,0,MAYOTTE,Indian/Mayotte
+30494,4,1,0,REUNION,Indian/Reunion
+30495,3.5,1,0,IRAN,Iran
+30496,2,1,42,ISRAEL,Israel
+30497,-5,1,0,JAMAICA,Jamaica
+30498,9,1,0,JAPAN,Japan
+30499,12,1,0,KWAJALEIN,Kwajalein
+30500,2,1,0,LIBYA,Libya
 30501,1,1,2,MET,MET
 30502,-7,1,1,MST,MST
 30503,-7,1,1,MST7MDT,MST7MDT
-30504,-8,1,1,Mexico/BajaNorte,BAJANORTE
-30505,-7,1,0,Mexico/BajaSur,BAJASUR
-30506,-6,1,0,Mexico/General,GENERAL
+30504,-8,1,1,BAJANORTE,Mexico/BajaNorte
+30505,-7,1,0,BAJASUR,Mexico/BajaSur
+30506,-6,1,0,GENERAL,Mexico/General
 30507,12,1,5,NZ,NZ
 30508,12.75,1,23,NZ-CHAT,NZ-CHAT
-30509,-7,1,1,Navajo,NAVAJO
+30509,-7,1,1,NAVAJO,Navajo
 30510,8,1,0,PRC,PRC
 30511,-8,1,1,PST8PDT,PST8PDT
-30512,13,1,0,Pacific/Apia,APIA
-30513,12,1,5,Pacific/Auckland,AUCKLAND
-30514,12.75,1,23,Pacific/Chatham,CHATHAM
-30515,10,1,0,Pacific/Chuuk,CHUUK
-30516,-6,1,28,Pacific/Easter,EASTER
-30517,11,1,0,Pacific/Efate,EFATE
-30518,13,1,0,Pacific/Enderbury,ENDERBURY
-30519,13,1,0,Pacific/Fakaofo,FAKAOFO
-30520,12,1,19,Pacific/Fiji,FIJI
-30521,12,1,0,Pacific/Funafuti,FUNAFUTI
-30522,-6,1,0,Pacific/Galapagos,GALAPAGOS
-30523,-9,1,0,Pacific/Gambier,GAMBIER
-30524,11,1,0,Pacific/Guadalcanal,GUADALCANAL
-30525,10,1,0,Pacific/Guam,GUAM
-30526,-10,1,0,Pacific/Honolulu,HONOLULU
-30527,-10,1,0,Pacific/Johnston,JOHNSTON
-30528,14,1,0,Pacific/Kiritimati,KIRITIMATI
-30529,11,1,0,Pacific/Kosrae,KOSRAE
-30530,12,1,0,Pacific/Kwajalein,KWAJALEIN
-30531,12,1,0,Pacific/Majuro,MAJURO
-30532,-9.5,1,0,Pacific/Marquesas,MARQUESAS
-30533,-11,1,0,Pacific/Midway,MIDWAY
-30534,12,1,0,Pacific/Nauru,NAURU
-30535,-11,1,0,Pacific/Niue,NIUE
-30536,11,1,4,Pacific/Norfolk,NORFOLK
-30537,11,1,0,Pacific/Noumea,NOUMEA
-30538,-11,1,0,Pacific/Pago_Pago,PAGO PAGO
-30539,9,1,0,Pacific/Palau,PALAU
-30540,-8,1,0,Pacific/Pitcairn,PITCAIRN
-30541,11,1,0,Pacific/Pohnpei,POHNPEI
-30542,11,1,0,Pacific/Ponape,PONAPE
-30543,10,1,0,Pacific/Port_Moresby,PORT MORESBY
-30544,-10,1,0,Pacific/Rarotonga,RAROTONGA
-30545,10,1,0,Pacific/Saipan,SAIPAN
-30546,13,1,0,Pacific/Samoa,SAMOA
-30547,-10,1,0,Pacific/Tahiti,TAHITI
-30548,12,1,0,Pacific/Tarawa,TARAWA
-30549,13,1,0,Pacific/Tongatapu,TONGATAPU
-30550,10,1,0,Pacific/Truk,TRUK
-30551,12,1,0,Pacific/Wake,WAKE
-30552,12,1,0,Pacific/Wallis,WALLIS
-30553,10,1,0,Pacific/Yap,YAP
-30554,1,1,2,Poland,POLAND
-30555,0,1,2,Portugal,PORTUGAL
+30512,13,1,0,APIA,Pacific/Apia
+30513,12,1,5,AUCKLAND,Pacific/Auckland
+30514,12.75,1,23,CHATHAM,Pacific/Chatham
+30515,10,1,0,CHUUK,Pacific/Chuuk
+30516,-6,1,28,EASTER,Pacific/Easter
+30517,11,1,0,EFATE,Pacific/Efate
+30518,13,1,0,ENDERBURY,Pacific/Enderbury
+30519,13,1,0,FAKAOFO,Pacific/Fakaofo
+30520,12,1,19,FIJI,Pacific/Fiji
+30521,12,1,0,FUNAFUTI,Pacific/Funafuti
+30522,-6,1,0,GALAPAGOS,Pacific/Galapagos
+30523,-9,1,0,GAMBIER,Pacific/Gambier
+30524,11,1,0,GUADALCANAL,Pacific/Guadalcanal
+30525,10,1,0,GUAM,Pacific/Guam
+30526,-10,1,0,HONOLULU,Pacific/Honolulu
+30527,-10,1,0,JOHNSTON,Pacific/Johnston
+30528,14,1,0,KIRITIMATI,Pacific/Kiritimati
+30529,11,1,0,KOSRAE,Pacific/Kosrae
+30530,12,1,0,KWAJALEIN,Pacific/Kwajalein
+30531,12,1,0,MAJURO,Pacific/Majuro
+30532,-9.5,1,0,MARQUESAS,Pacific/Marquesas
+30533,-11,1,0,MIDWAY,Pacific/Midway
+30534,12,1,0,NAURU,Pacific/Nauru
+30535,-11,1,0,NIUE,Pacific/Niue
+30536,11,1,4,NORFOLK,Pacific/Norfolk
+30537,11,1,0,NOUMEA,Pacific/Noumea
+30538,-11,1,0,PAGO PAGO,Pacific/Pago_Pago
+30539,9,1,0,PALAU,Pacific/Palau
+30540,-8,1,0,PITCAIRN,Pacific/Pitcairn
+30541,11,1,0,POHNPEI,Pacific/Pohnpei
+30542,11,1,0,PONAPE,Pacific/Ponape
+30543,10,1,0,PORT MORESBY,Pacific/Port_Moresby
+30544,-10,1,0,RAROTONGA,Pacific/Rarotonga
+30545,10,1,0,SAIPAN,Pacific/Saipan
+30546,13,1,0,SAMOA,Pacific/Samoa
+30547,-10,1,0,TAHITI,Pacific/Tahiti
+30548,12,1,0,TARAWA,Pacific/Tarawa
+30549,13,1,0,TONGATAPU,Pacific/Tongatapu
+30550,10,1,0,TRUK,Pacific/Truk
+30551,12,1,0,WAKE,Pacific/Wake
+30552,12,1,0,WALLIS,Pacific/Wallis
+30553,10,1,0,YAP,Pacific/Yap
+30554,1,1,2,POLAND,Poland
+30555,0,1,2,PORTUGAL,Portugal
 30556,8,1,0,ROC,ROC
 30557,9,1,0,ROK,ROK
-30558,8,1,0,Singapore,SINGAPORE
-30559,3,1,0,Turkey,TURKEY
+30558,8,1,0,SINGAPORE,Singapore
+30559,3,1,0,TURKEY,Turkey
 30560,0,0,0,UCT,UCT
-30561,-9,1,1,US/Alaska,ALASKA
-30562,-10,1,1,US/Aleutian,ALEUTIAN
-30563,-7,1,0,US/Arizona,ARIZONA
-30564,-6,1,1,US/Central,CENTRAL
-30565,-5,1,1,US/East-Indiana,EAST-INDIANA
-30566,-5,1,1,US/Eastern,EASTERN
-30567,-10,1,0,US/Hawaii,HAWAII
-30568,-6,1,1,US/Indiana-Starke,INDIANA-STARKE
-30569,-5,1,1,US/Michigan,MICHIGAN
-30570,-7,1,1,US/Mountain,MOUNTAIN
-30571,-8,1,1,US/Pacific,PACIFIC
-30572,-11,1,0,US/Samoa,SAMOA
+30561,-9,1,1,ALASKA,US/Alaska
+30562,-10,1,1,ALEUTIAN,US/Aleutian
+30563,-7,1,0,ARIZONA,US/Arizona
+30564,-6,1,1,CENTRAL,US/Central
+30565,-5,1,1,EAST-INDIANA,US/East-Indiana
+30566,-5,1,1,EASTERN,US/Eastern
+30567,-10,1,0,HAWAII,US/Hawaii
+30568,-6,1,1,INDIANA-STARKE,US/Indiana-Starke
+30569,-5,1,1,MICHIGAN,US/Michigan
+30570,-7,1,1,MOUNTAIN,US/Mountain
+30571,-8,1,1,PACIFIC,US/Pacific
+30572,-11,1,0,SAMOA,US/Samoa
 30573,0,0,0,UTC,UTC
-30574,0,0,0,Universal,UNIVERSAL
+30574,0,0,0,UNIVERSAL,Universal
 30575,3,1,0,W-SU,W-SU
 30576,0,1,2,WET,WET
-30577,0,0,0,Zulu,ZULU
-30578,9,1,0,Asia/Chita,CHITA
-30579,11,1,0,Asia/Srednekolymsk,SREDNEKOLYMSK
-30580,11,1,0,Pacific/Bougainville,BOUGAINVILLE
-30581,7,1,0,Asia/Hanoi,HANOI
-30582,-7,1,0,America/Fort_Nelson,FORT NELSON
-30583,7,1,0,Asia/Barnaul,BARNAUL
-30584,7,1,0,Asia/Tomsk,TOMSK
-30585,6.5,1,0,Asia/Yangon,YANGON
-30586,4,1,0,Europe/Astrakhan,ASTRAKHAN
-30587,3,1,0,Europe/Kirov,KIROV
-30588,4,1,0,Europe/Ulyanovsk,ULYANOVSK
-30589,-3,1,0,America/Punta_Arenas,PUNTA ARENAS
-30590,5,1,0,Asia/Atyrau,ATYRAU
-30591,2,1,3,Asia/Famagusta,FAMAGUSTA
-30592,4,1,0,Europe/Saratov,SARATOV
-30593,-2,1,31,America/Nuuk,NUUK
-30594,5,1,0,Asia/Qostanay,QOSTANAY
-30595,13,1,0,Pacific/Kanton,KANTON
-30596,2,1,2,Europe/Kyiv,KYIV
+30577,0,0,0,ZULU,Zulu
+30578,9,1,0,CHITA,Asia/Chita
+30579,11,1,0,SREDNEKOLYMSK,Asia/Srednekolymsk
+30580,11,1,0,BOUGAINVILLE,Pacific/Bougainville
+30581,7,1,0,HANOI,Asia/Hanoi
+30582,-7,1,0,FORT NELSON,America/Fort_Nelson
+30583,7,1,0,BARNAUL,Asia/Barnaul
+30584,7,1,0,TOMSK,Asia/Tomsk
+30585,6.5,1,0,YANGON,Asia/Yangon
+30586,4,1,0,ASTRAKHAN,Europe/Astrakhan
+30587,3,1,0,KIROV,Europe/Kirov
+30588,4,1,0,ULYANOVSK,Europe/Ulyanovsk
+30589,-3,1,0,PUNTA ARENAS,America/Punta_Arenas
+30590,5,1,0,ATYRAU,Asia/Atyrau
+30591,2,1,3,FAMAGUSTA,Asia/Famagusta
+30592,4,1,0,SARATOV,Europe/Saratov
+30593,-2,1,31,NUUK,America/Nuuk
+30594,5,1,0,QOSTANAY,Asia/Qostanay
+30595,13,1,0,KANTON,Pacific/Kanton
+30596,2,1,2,KYIV,Europe/Kyiv

@@ -1,12 +1,10 @@
 import 'dart:async';
-import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 
 import 'package:g_square/models/command.dart';
 import 'package:g_square/utils/device.dart';
-import 'package:g_square/utils/bytes_converter.dart';
 
 class DeviceScreen extends StatefulWidget {
   final Device device;

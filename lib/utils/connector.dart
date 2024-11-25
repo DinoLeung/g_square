@@ -84,7 +84,7 @@ class Connector {
     } on FlutterBluePlusException catch (e) {
       print(e.toString());
       await watch.disconnect();
-    } on StateError catch (e) {
+    } on StateError {
       print("Device not supported");
       await watch.disconnect();
     } catch (e) {
