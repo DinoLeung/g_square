@@ -20,7 +20,6 @@ class _ScanScreenState extends State<ScanScreen> {
   // bool _isConnected = false;
   // Map<String, List<int>> _characteristics = {};
 
-  // GShockManager manager = GShockManager();
   Connector connector = Connector();
 
   @override

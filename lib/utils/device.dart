@@ -94,10 +94,13 @@ class Device {
     }
   }
 
-  Future writeTime({Duration offset = const Duration(milliseconds: 500)}) async {
-    DateTime now = DateTime.now();
+  Future writeTime(
+      {Duration offset = const Duration(milliseconds: 500)}) async {
+    DateTime now = await config.homeTime.getCurrentDateTime();
     DateTime offsetTime = now.add(offset);
+    print(offsetTime);
     List<int> datetimeData = BytesConverter.dateTimeToBytes(offsetTime);
+    print(datetimeData.map((i) => (i & 0xFF).toRadixString(16)));
     List<int> packet = [Command.currentTime.code, ...datetimeData, 1];
     await write(packet);
   }

@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'package:g_square/utils/device.dart';
-import 'package:g_square/utils/constants.dart';
+import 'package:g_square/constants/bluetooth_uuid.dart';
 
 class Connector {
   Connector() {

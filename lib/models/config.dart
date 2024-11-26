@@ -89,11 +89,11 @@ class Config {
 
   List<List<int>> timeZonesNamesPacket() => [
         [Command.timeZoneName.code, 0, ...homeTime.timeZone.cityNameBytes],
-        [Command.timeZoneName.code, 0, ...worldTime1.timeZone.cityNameBytes],
-        [Command.timeZoneName.code, 0, ...worldTime2.timeZone.cityNameBytes],
-        [Command.timeZoneName.code, 0, ...worldTime3.timeZone.cityNameBytes],
-        [Command.timeZoneName.code, 0, ...worldTime4.timeZone.cityNameBytes],
-        [Command.timeZoneName.code, 0, ...worldTime5.timeZone.cityNameBytes],
+        [Command.timeZoneName.code, 1, ...worldTime1.timeZone.cityNameBytes],
+        [Command.timeZoneName.code, 2, ...worldTime2.timeZone.cityNameBytes],
+        [Command.timeZoneName.code, 3, ...worldTime3.timeZone.cityNameBytes],
+        [Command.timeZoneName.code, 4, ...worldTime4.timeZone.cityNameBytes],
+        [Command.timeZoneName.code, 5, ...worldTime5.timeZone.cityNameBytes],
       ];
 }
 

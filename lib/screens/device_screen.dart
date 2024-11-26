@@ -56,10 +56,13 @@ class _DeviceScreenState extends State<DeviceScreen> {
   // }
 
   void onSyncTimePressed(BuildContext context) async {
+    // TODO: try reading timezone config before writing
+    // TODO: write clocks last
     await widget.device.writeClocks();
     // await widget.device.writeTimeZones();
-    // await widget.device.writeTime();
+    await widget.device.writeTime();
   }
+
   void onGetClockPressed(BuildContext context) async {
     await widget.device.requestClocks();
   }

@@ -1,6 +1,9 @@
+import 'package:timezone/timezone.dart' as tz;
+import 'package:timezone/data/latest.dart' as tz_data;
+
 import 'package:g_square/models/time_zone.dart';
-import 'package:g_square/resources/home_time_zones.dart';
-import 'package:g_square/resources/world_time_zones.dart';
+import 'package:g_square/constants/home_time_zones.dart';
+import 'package:g_square/constants/world_time_zones.dart';
 
 enum DstStatus {
   // 00000000
@@ -21,40 +24,50 @@ enum DstStatus {
 }
 
 abstract class Clock {
-  TimeZone timeZone;
-  DstStatus dstStatus;
+  final TimeZone timeZone;
+  final DstStatus dstStatus;
 
   Clock({required this.timeZone, required this.dstStatus});
 }
 
 class HomeClock extends Clock {
+  final HomeTimeZone _timeZone;
 
-  HomeClock({required super.timeZone, required super.dstStatus});
+  HomeClock(this._timeZone, DstStatus dstStatus)
+      : super(timeZone: _timeZone, dstStatus: dstStatus);
 
   static HomeClock fromTimeZoneId(int timeZoneId, DstStatus dstStatus) {
     if (homeTimeZones.containsKey(timeZoneId) == false) {
       throw ClockError('Home time zone ID $timeZoneId does not exist.');
     }
-    return HomeClock(timeZone: homeTimeZones[timeZoneId]!, dstStatus: dstStatus);
+    return HomeClock(homeTimeZones[timeZoneId]!, dstStatus);
+  }
+
+  Future<tz.TZDateTime> getCurrentDateTime() async {
+    tz_data.initializeTimeZones();
+    tz.Location detroit = tz.getLocation(_timeZone.timeZone);
+    return tz.TZDateTime.now(detroit);
   }
 
   @override
-  HomeTimeZone get timeZone => super.timeZone as HomeTimeZone;
+  HomeTimeZone get timeZone => _timeZone;
 }
 
 class WorldClock extends Clock {
+  final WorldTimeZone _timeZone;
 
-  WorldClock({required super.timeZone, required super.dstStatus});
+  WorldClock(this._timeZone, DstStatus dstStatus)
+      : super(timeZone: _timeZone, dstStatus: dstStatus);
 
   static WorldClock fromTimeZoneId(int timeZoneId, DstStatus dstStatus) {
     if (worldTimeZones.containsKey(timeZoneId) == false) {
       throw ClockError('Home time zone ID $timeZoneId does not exist.');
     }
-    return WorldClock(timeZone: worldTimeZones[timeZoneId]!, dstStatus: dstStatus);
+    return WorldClock(worldTimeZones[timeZoneId]!, dstStatus);
   }
 
   @override
-  WorldTimeZone get timeZone => super.timeZone as WorldTimeZone;
+  WorldTimeZone get timeZone => _timeZone;
 }
 
 class ClockError implements Exception {
