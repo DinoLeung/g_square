@@ -5,9 +5,9 @@ enum Command {
   settingForBle(0x11),
   watchCondition(0x28),
   clock(0x1d),
-  timeZoneConfig(0x1e),
   timeZoneName(0x1f),
-  // somethingRelatedToTimezone(0x24),
+  timeZoneConfig(0x1e),
+  // somethingRelatedToTimezone(0x24), maybe it's not important
   currentTime(0x09),
   settingForAlm(0x15),
   settingForAlm2(0x16),

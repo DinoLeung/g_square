@@ -31,7 +31,7 @@ abstract class TimeZone {
 
   // offsets are in 15 minutes intervals
   int get offsetByte => (offset * 4).toInt();
-  int get dstOffsetByte => ((offset + dstDiff) * 4).toInt();
+  int get dstOffsetByte => (dstDiff * 4).toInt();
 }
 
 class HomeTimeZone extends TimeZone {

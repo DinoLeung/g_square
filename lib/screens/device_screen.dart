@@ -56,16 +56,25 @@ class _DeviceScreenState extends State<DeviceScreen> {
   // }
 
   void onSyncTimePressed(BuildContext context) async {
-    // TODO: try reading timezone config before writing
-    // TODO: write clocks last
+    await widget.device.requestClocks();
+    await Future.delayed(Duration(milliseconds: 1500));
     await widget.device.writeClocks();
-    // await widget.device.writeTimeZones();
+
+    // await widget.device.requestTimeZoneConfigs();
+    // await Future.delayed(Duration(milliseconds: 100));
+    await widget.device.writeTimeZoneConfigs();
+
+    // await widget.device.requestTimeZoneNames();
+    // await Future.delayed(Duration(milliseconds: 100));
+    await widget.device.writeTimeZoneNames();
+
     await widget.device.writeTime();
   }
 
-  void onGetClockPressed(BuildContext context) async {
-    await widget.device.requestClocks();
-  }
+  // void onGetClockPressed(BuildContext context) async {
+  //   await widget.device.requestClocks();
+  //   await widget.device.requestTimeZones();
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -87,11 +96,15 @@ class _DeviceScreenState extends State<DeviceScreen> {
                     child: const Text('Read app info')),
                 ElevatedButton(
                     onPressed: () =>
+                        onReadPressed(context, Command.bleFeatures),
+                    child: const Text('Read ble feature')),
+                ElevatedButton(
+                    onPressed: () =>
                         onReadPressed(context, Command.watchCondition),
                     child: const Text('Read condition')),
-                ElevatedButton(
-                    onPressed: () => onGetClockPressed(context),
-                    child: const Text('Get Clocks')),
+                // ElevatedButton(
+                //     onPressed: () => onGetClockPressed(context),
+                //     child: const Text('Get Clocks')),
                 ElevatedButton(
                     onPressed: () => onSyncTimePressed(context),
                     child: const Text('Sync time')),

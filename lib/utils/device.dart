@@ -85,22 +85,35 @@ class Device {
     }
   }
 
-  Future writeTimeZones() async {
-    for (var packet in [
-      ...config.timeZonesConfigsPacket(),
-      ...config.timeZonesNamesPacket()
-    ]) {
+  Future requestTimeZoneConfigs() async {
+    for (var _ in List<int>.filled(6, 0)) {
+      await request(Command.timeZoneConfig);
+    }
+  }
+
+  Future writeTimeZoneConfigs() async {
+    for (var packet in config.timeZonesConfigsPacket()) {
+      await write(packet);
+    }
+  }
+
+  Future requestTimeZoneNames() async {
+    for (var _ in List<int>.filled(6, 0)) {
+      await request(Command.timeZoneName);
+    }
+  }
+
+  Future writeTimeZoneNames() async {
+    for (var packet in config.timeZonesNamesPacket()) {
       await write(packet);
     }
   }
 
   Future writeTime(
-      {Duration offset = const Duration(milliseconds: 500)}) async {
+      {Duration offset = const Duration(milliseconds: 300)}) async {
     DateTime now = await config.homeTime.getCurrentDateTime();
     DateTime offsetTime = now.add(offset);
-    print(offsetTime);
     List<int> datetimeData = BytesConverter.dateTimeToBytes(offsetTime);
-    print(datetimeData.map((i) => (i & 0xFF).toRadixString(16)));
     List<int> packet = [Command.currentTime.code, ...datetimeData, 1];
     await write(packet);
   }
